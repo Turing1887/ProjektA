@@ -1,0 +1,9 @@
+=== Feedback Alpers, 2016-04-19 ===
+
+Leider haben Sie verschiedene Fehler gemacht, wegen denen ich Ihnen kein aktuelles Feedback geben kann: So sollten Sie eine Projektbeschreibung ins Repository unter einen bestimmten Namen einstellen.
+
+Es gibt dagegen drei. Und so wie Sie die benannt haben kann ich erkennen, dass Sie die allererste Aufgabe, nämlich das Einarbeiten in Git nicht ausreichend bearbeitet haben.
+
+Dann haben Sie ohne das Feedback abzuwarten bereits am Projekt weiter gearbeitet.
+
+Gehen Sie zurück zu Schritt 1. Arbeiten Sie sich ausreichend in Git ein, damit Sie verstehen, warum es unsinnig ist, Dateien mit einem Datum zu erstellen. Erstellen Sie dann die Projektbeschreibung in der Datei, die so bezeichnet ist, wie es in Kap. 5 vorgegeben ist. Und erst wenn Sie von mir eine entsprechendes Feedback bekommen haben arbeiten Sie an der Datei strukt.html.
