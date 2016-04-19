@@ -1,9 +1,9 @@
 === Feedback Alpers, 2016-04-19 ===
 
-Leider haben Sie verschiedene Fehler gemacht, wegen denen ich Ihnen kein aktuelles Feedback geben kann: So sollten Sie eine Projektbeschreibung ins Repository unter einen bestimmten Namen einstellen.
+In Kap. 5 habe ich vorgegeben, dass alle Teilnehmer am Projekt ein eigenes Repository mit Inhalten einreichen sollen, die sie alleine erstellt haben. Das habe ich auch in der Veranstaltung gesagt und in E-Mails an alle Teilnehmer darauf hingewiesen.
 
-Es gibt dagegen drei. Und so wie Sie die benannt haben kann ich erkennen, dass Sie die allererste Aufgabe, nämlich das Einarbeiten in Git nicht ausreichend bearbeitet haben.
+Dennoch haben Sie hier identische Inhalte wie der Git-Account TheCanadians, zum Teil handelt es sich dabei um Inhalte die ich in das Repository von TheCanadians eingefügt habe.
 
-Dann haben Sie ohne das Feedback abzuwarten bereits am Projekt weiter gearbeitet.
+Arbeiten Sie Kap. 5 durch und reichen Sie mir Ihr indivduelles Repository ein. Dann geben ich Ihnen dafür ein entsprechendes Feedback. Fürs Kopieren gibt es kein Feedback.
 
-Gehen Sie zurück zu Schritt 1. Arbeiten Sie sich ausreichend in Git ein, damit Sie verstehen, warum es unsinnig ist, Dateien mit einem Datum zu erstellen. Erstellen Sie dann die Projektbeschreibung in der Datei, die so bezeichnet ist, wie es in Kap. 5 vorgegeben ist. Und erst wenn Sie von mir eine entsprechendes Feedback bekommen haben arbeiten Sie an der Datei strukt.html.
+Und um es unmissverständlich zu formulieren: Keine Zusammenarbeit mit TheCanadians im Rahmen dieses Projekts! Erbringen Sie eine eigene Leistung!
