@@ -1,0 +1,24 @@
+Projektidee:
+
+Für Projekt A möchte ich das Brettspiel Amyitis umsetzen. 
+Ziel des Spiels ist es, die meisten (Prestige)Punkte zu erlangen.
+Es gibt zwei Spielfelder: Babylon und Mesopotamien. 
+
+
+Babylon: 
+Das Spielfeld ist unterteilt in drei Teile:
+	1. Eine Fläche mit 4x4 Feldern, die man bewirtschaften kann um Prestigepunkte zu kriegen.
+	   dabei haben die Felder verschiedene Stufen die dementsprechend viele Punkte bringen.
+	2. Drei Tempel mit jeweils 4 Feldern. Der Spieler, der das letzte Feld eines Tempels erreicht kriegt eine 
+	   Belohnung.
+	3. Ein 2x4 Ackerfeld, die verschiedene Ressourcen einbringen.
+
+Mesopotamien:
+Dieses Spielfeld ist unterteilt in 9 verschiedene Felder, die die Länder Mesopotamiens
+repräsentieren. Man kann seine Karawane im Uhrzeigersinn durch die Länder ziehen lassen und pro
+Feld Handel treiben. Seine zuvor erwirtschafteten Ressourcen kann man hier eintauschen gegen 
+Aufwertungen oder Pflanzen für die Gärten.  
+
+
+
+
