@@ -1,4 +1,6 @@
-Projektidee:
+==========================================
+=== Projektidee Turing1887, 2016-05-.. ===
+==========================================
 
 Für Projekt A möchte ich das Brettspiel Amyitis umsetzen. 
 Ziel des Spiels ist es, die meisten (Prestige)Punkte zu erlangen.
@@ -62,5 +64,20 @@ Nun kommt die Endphase der Runde. Es werden nun 3 Aktionen nacheinander ausgefü
 Spielende:
 Das Spielendet bei 2 Spielern, sobald nur noch 3 oder weniger Gartenfelder frei sind und bei 3 bzw. 4 Spielern wenn nur noch 4 Gartenfelder frei sind. Gewonnen hat derjenige, der die meisten Prestigepunkte hat.
 
+===================================
+=== Feedback Alpers, 2016-05-17 ===
+===================================
 
+Beim letzten Mal hatten Sie ein fremdes Repository (das von TheCanadians) geclont, woraufhin ich Ihnen deutlich gesagt habe, dass Sie ein eigenes Projekt umsetzen müssen. Dieses Mal haben Sie eine Beschreibung zu einem Projekt erstellt, das TheCanadians umsetzen soll. Deshalb hier nochmal der Hinweis: Sie müssen ein eigenes Projekt umsetzen. Es ist zwar sehr gut, wenn Sie dabei mit anderen Kommilitonen zusammen arbeiten, aber es muss ein eigenständiges Projekt sein. Denn damit Sie in späteren Projekten nicht Ihren Kommilitonen zur Last fallen bzw. als Softwareentwickler tätig werden zu können, müssen Sie im Stande sein, die grundlegenden Aufgabenstellungen individuell zu erfüllen. Bitte erstellen Sie deshalb eine Projektbeschreibung basierend auf dem Brettspiel Kingsburg http://www.brettspiele-report.de/kingsburg/
 
+Beachten Sie dabei aber bitte, dass Sie auch in diesem Fall eine Anwendung entwickeln sollen, bestimmte Anforderungen im Bereich Webbasierung und Interaktivität beinhaltet:
+
+Nach der Zusammenfassung sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
+
+Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
+
+Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alle ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
+
+Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
