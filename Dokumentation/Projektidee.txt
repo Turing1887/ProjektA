@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿Kingsburg: 
 
 Für mein Projekt möchte ich das Brettspiel Kingsburg als webbasierte Anwendung umsetzen. Das Spiel Kingsburg ist ein Strategiespiel,
@@ -33,58 +32,6 @@ Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hier
 man muss auf der linken Seite der Reihe mit dem Bauen anfangen bevor man die Gebäude bauen kann die weiter rechts sind.
 Es ist erlaubt, jederzeit eine neue Reihe anzufangen. 
 
-=======
-==========================================
-=== Projektidee Turing1887, 2016-05-.. ===
-==========================================
-
-Für Projekt A möchte ich das Brettspiel Amyitis umsetzen. 
-Ziel des Spiels ist es, die meisten (Prestige)Punkte zu erlangen.
-Es gibt zwei Spielfelder: Babylon und Mesopotamien. 
-
-
-Babylon: 
-Das Spielfeld ist unterteilt in drei Teile:
-	1. Eine Fläche mit 4x4 Feldern, die man bewirtschaften kann um Prestigepunkte zu kriegen.
-	   dabei haben die Felder verschiedene Stufen die dementsprechend viele Punkte bringen.
-	2. Drei Tempel mit jeweils 4 Feldern. Der Spieler, der das letzte Feld eines Tempels erreicht kriegt eine 
-	   Belohnung.
-	3. Ein 2x4 Ackerfeld, die verschiedene Ressourcen einbringen.
-
-Mesopotamien:
-Dieses Spielfeld ist unterteilt in 9 verschiedene Felder, die die Länder Mesopotamiens
-repräsentieren. Man kann seine Karawane im Uhrzeigersinn durch die Länder ziehen lassen und pro
-Feld Handel treiben. Seine zuvor erwirtschafteten Ressourcen kann man hier eintauschen gegen 
-Aufwertungen oder Pflanzen für die Gärten.  
-
-Ablauf:
-Das Spiel besteht aus mehreren Runden, die in jeweils drei Phasen aufgeteilt sind.
-
-Am Anfang der Runde werden pro Spieler drei Arbeiterkarten ausgelegt. Es gibt Ingenieure, die die Gärten bewässern können.Priester, wodurch der Spieler in einen der drei Tempel kann, an dessen Ende ein Bonus für den Spieler wartet.
-Einen Bauern, mit dem man Ressourcen auf dem Acker abbauen kann, die Später in Mesopotamien eingetauscht werden können gegen Waren, wie z.B. Pflanzen, die auf den Gartenfeldern angepflanzt werden können sofern diese bewässert sind. Und einen Händler, der einem ein Kamel einbringt, welches benötigt wird, um die Karawane in Mesopotamien ein Feld weiter zu ziehen.
-Ein Spieler kann nun eine von drei Aktionen auswählen. Entweder er passt und tut nichts, rekrutiert einen seiner drei Arbeiter oder bewegt seine Karawane auf dem Spielfeld "Mesopotamien" weiter.
-
-1.Passen:
-Hat ein Spieler gepasst, so darf er das nächste Mal wenn er in dieser Runde dran ist, eine Münze aus dem Vorrat nehmen. 
-
-2.Rekrutieren:
-	Arbeiter:
-	Rekrutiert ein Spieler einen Arbeiter, so muss kann er mit diesem eine spezifische Aktion ausführen. Mit dem Bauern kann er nun das erste Feld auf einem der beiden Äcker bearbeiten. Die Ressource die jenes Feld darstellt kommt in das Inventar des Spielers. Ist jedes Feld des Ackers besetzt, kriegt der Spieler, mit den meisten besetzten Ackerfeldern eine Gärtnerkarte die benötigt wird um Pflanzen einer höheren Stufe anzupflanzen. Diese Pflanzen bringen mehr Punkte.
-	Priester:
-	Mit dem Priester kann man in einen der drei Tempel gelangen. Der Spieler, mit den meisten besetzten Tempelfeldern in Phase 3 erhält einen Bonus. 
-	
-	Ingenieur:
-	Der Ingenieur dient dazu, die Felder der Gärten zu bewässern. Ein Feld kann von jeder Seite bewässert werden. Es muss jedoch stets eine Verbindung zum Fluss bestehen. Die höher stufigen Felder müssen von zweimal bewässert werden von einer Seite damit auf ihnen Pflanzen gepflanzt werden können.
-	
-	Händler:
-	Händler bringen dem Spieler ein Kamel ein, welches benutzt werden kann um die Karawane auf das nächste Feld zu ziehen.
-	
-3.Die Karawane bewegen:	
-Um die Karawane zu bewegen muss ein Kamel bezahlt werden. Hat ein Spieler eine Karawanenführerkarte, so kann die Karawane weitere Felder bewegt werden. Zieht der Spieler die Karawane weiter, so muss eine Aktion ausgeführt werden.
-a) Erreicht der Spieler Babylon, so kann er dort Ressourcen, die er besitzt verkaufen. Verkauft er eine Ressource kriegt der Spieler 3 Prestigepunkte, verkauft er 2 erhält er 6. Tut er dies muss er außerdem ein Feld in Babylon bewässern.
-b) Der Spieler kann eine Hofkarte kaufen für eine Münze, die auf dem Feld angezeigt ist. Zu den Hofkarten zählen Bankierkarten, die dem Spieler Münzen einbringen, Karawanenführerkarten, die dem Spieler zusätzliche Bewegungen in Mesopotamien gewähren und Palastkarten, die Prestigepunkte bringen.
-c) Der Spieler kann Ressourcen gegen Pflanzen eintauschen, die sofort gepflanzt werden. Zu zahlen sind die Ressource die von der Stadt gefordert wird und die Ressource, die auf der Pflanzenkarte zu sehen ist. Wird eine Pflanze erworben wird diese entweder zu einer Stufe 2 Pflanze oder Stufe 1, je nach dem was sie gerade ist. Wird eine Pflanze gepflanzt muss darauf geachtet werden, dass die Pflanzen Stufe mindestens gleich der Stufe des Gartenfeldes ist, auf dem diese gepflanzt werden soll. Um eine Pflanze auf einem Feld der Stufe 3 o. 4 zu pflanzen muss eine Gärtnerkarte verwendet werden um die Stufe der Karte um 1 zu erhöhen.
->>>>>>> 692acb7dde6f8255cbb3808be0dbb39f909924cf
 
 Phase 3:
 
@@ -133,10 +80,6 @@ Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressour
 Gebäuden zerstören. 
 
 Nach dieser Phase fängt das nächste Jahr an. Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten. 
-
-
-
-
 
 
 
