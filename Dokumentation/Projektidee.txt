@@ -1,66 +1,93 @@
-Projektidee:
+﻿Kingsburg: 
 
-Für Projekt A möchte ich das Brettspiel Amyitis umsetzen. 
-Ziel des Spiels ist es, die meisten (Prestige)Punkte zu erlangen.
-Es gibt zwei Spielfelder: Babylon und Mesopotamien. 
+Für mein Projekt möchte ich das Brettspiel Kingsburg als webbasierte Anwendung umsetzen. Das Spiel Kingsburg ist ein Strategiespiel,
+mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen. Es gibt 5 Jahre mit jeweils 7 Phasen. 
+Am Ende jedes Jahres kämpfen die Spieler gegen einen Gegner der bei einem Sieg einen Bonus, bei einer Niederlage
+einen Malus einbringt. Am Ende gewinnt derjenige mit den meisten Punkten.
+
+Spieleranzahl: 2-5
 
 
-Babylon: 
-Das Spielfeld ist unterteilt in drei Teile:
-	1. Eine Fläche mit 4x4 Feldern, die man bewirtschaften kann um Prestigepunkte zu kriegen.
-	   dabei haben die Felder verschiedene Stufen die dementsprechend viele Punkte bringen.
-	2. Drei Tempel mit jeweils 4 Feldern. Der Spieler, der das letzte Feld eines Tempels erreicht kriegt eine 
-	   Belohnung.
-	3. Ein 2x4 Ackerfeld, die verschiedene Ressourcen einbringen.
+Phase 1(Spielbeginn):
 
-Mesopotamien:
-Dieses Spielfeld ist unterteilt in 9 verschiedene Felder, die die Länder Mesopotamiens
-repräsentieren. Man kann seine Karawane im Uhrzeigersinn durch die Länder ziehen lassen und pro
-Feld Handel treiben. Seine zuvor erwirtschafteten Ressourcen kann man hier eintauschen gegen 
-Aufwertungen oder Pflanzen für die Gärten.  
+Das Spiel beginnt in Phase 1 des ersten Jahres. Jeder Spieler bekommt 3 Würfel. 
+In der ersten Phase bekommt der Spieler, mit den wenigsten Gebäuden einen zusätzlichen weißen Würfel. 
+Da in der ersten Phase jedoch noch kein Spieler Gebäude besitzt wird diese Phase übersprungen.
 
-Ablauf:
-Das Spiel besteht aus mehreren Runden, die in jeweils drei Phasen aufgeteilt sind.
 
-Am Anfang der Runde werden pro Spieler drei Arbeiterkarten ausgelegt. Es gibt Ingenieure, die die Gärten bewässern können.Priester, wodurch der Spieler in einen der drei Tempel kann, an dessen Ende ein Bonus für den Spieler wartet.
-Einen Bauern, mit dem man Ressourcen auf dem Acker abbauen kann, die Später in Mesopotamien eingetauscht werden können gegen Waren, wie z.B. Pflanzen, die auf den Gartenfeldern angepflanzt werden können sofern diese bewässert sind. Und einen Händler, der einem ein Kamel einbringt, welches benötigt wird, um die Karawane in Mesopotamien ein Feld weiter zu ziehen.
-Ein Spieler kann nun eine von drei Aktionen auswählen. Entweder er passt und tut nichts, rekrutiert einen seiner drei Arbeiter oder bewegt seine Karawane auf dem Spielfeld "Mesopotamien" weiter.
+Phase 2(Produktionsphase):
 
-1.Passen:
-Hat ein Spieler gepasst, so darf er das nächste Mal wenn er in dieser Runde dran ist, eine Münze aus dem Vorrat nehmen. 
+In der Produktionsphase wird gewürfelt. 
+Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen.
+Die Berater geben entweder Punkte, einen Rohstoff(Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist,
+militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines Würfels zu erhöhen.
+Jeder Spieler kann nun einen Berater für sich beanspruchen in dem er die Würfel mit der entsprechenden Augenzahl 
+auf den Berater legt. Die Augenzahlen können auch zusammen gezählt werden. 
+Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden.
+Am Ende müssen entweder alle Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt.
 
-2.Rekrutieren:
-	Arbeiter:
-	Rekrutiert ein Spieler einen Arbeiter, so muss kann er mit diesem eine spezifische Aktion ausführen. Mit dem Bauern kann er nun das erste Feld auf einem der beiden Äcker bearbeiten. Die Ressource die jenes Feld darstellt kommt in das Inventar des Spielers. Ist jedes Feld des Ackers besetzt, kriegt der Spieler, mit den meisten besetzten Ackerfeldern eine Gärtnerkarte die benötigt wird um Pflanzen einer höheren Stufe anzupflanzen. Diese Pflanzen bringen mehr Punkte.
-	Priester:
-	Mit dem Priester kann man in einen der drei Tempel gelangen. Der Spieler, mit den meisten besetzten Tempelfeldern in Phase 3 erhält einen Bonus. 
-	
-	Ingenieur:
-	Der Ingenieur dient dazu, die Felder der Gärten zu bewässern. Ein Feld kann von jeder Seite bewässert werden. Es muss jedoch stets eine Verbindung zum Fluss bestehen. Die höher stufigen Felder müssen von zweimal bewässert werden von einer Seite damit auf ihnen Pflanzen gepflanzt werden können.
-	
-	Händler:
-	Händler bringen dem Spieler ein Kamel ein, welches benutzt werden kann um die Karawane auf das nächste Feld zu ziehen.
-	
-3.Die Karawane bewegen:	
-Um die Karawane zu bewegen muss ein Kamel bezahlt werden. Hat ein Spieler eine Karawanenführerkarte, so kann die Karawane weitere Felder bewegt werden. Zieht der Spieler die Karawane weiter, so muss eine Aktion ausgeführt werden.
-a) Erreicht der Spieler Babylon, so kann er dort Ressourcen, die er besitzt verkaufen. Verkauft er eine Ressource kriegt der Spieler 3 Prestigepunkte, verkauft er 2 erhält er 6. Tut er dies muss er außerdem ein Feld in Babylon bewässern.
-b) Der Spieler kann eine Hofkarte kaufen für eine Münze, die auf dem Feld angezeigt ist. Zu den Hofkarten zählen Bankierkarten, die dem Spieler Münzen einbringen, Karawanenführerkarten, die dem Spieler zusätzliche Bewegungen in Mesopotamien gewähren und Palastkarten, die Prestigepunkte bringen.
-c) Der Spieler kann Ressourcen gegen Pflanzen eintauschen, die sofort gepflanzt werden. Zu zahlen sind die Ressource die von der Stadt gefordert wird und die Ressource, die auf der Pflanzenkarte zu sehen ist. Wird eine Pflanze erworben wird diese entweder zu einer Stufe 2 Pflanze oder Stufe 1, je nach dem was sie gerade ist. Wird eine Pflanze gepflanzt muss darauf geachtet werden, dass die Pflanzen Stufe mindestens gleich der Stufe des Gartenfeldes ist, auf dem diese gepflanzt werden soll. Um eine Pflanze auf einem Feld der Stufe 3 o. 4 zu pflanzen muss eine Gärtnerkarte verwendet werden um die Stufe der Karte um 1 zu erhöhen.
+Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. 
+Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. 
+Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet 
+man muss auf der linken Seite der Reihe mit dem Bauen anfangen bevor man die Gebäude bauen kann die weiter rechts sind.
+Es ist erlaubt, jederzeit eine neue Reihe anzufangen. 
+
 
 Phase 3:
-Nun kommt die Endphase der Runde. Es werden nun 3 Aktionen nacheinander ausgeführt. 
-	a) Die Spieler zählen die Felder die sie in den Tempeln besetzt haben. 
-		Tempel 1:
-		In Tempel 1 bekommt der mit den meisten Feldern ein Kamel oder eine Münze. Der zweitplatzierte kriegt die übrig gebliebene Ressource.
-		Tempel 2:
-		Der Erstplatzierte kriegt 2 Prestigepunkte und der Zweite nur einen.
-		Tempel 3:
-		Der Erstplatzierte darf eine Ressource von einem Ackerfeld nehmen. Der Zweite darf eine seiner Ressourcen mit einer Ressource aus dem Vorrat tauschen.
-	b) Die Spieler müssen jetzt ihre Ressourcen umverteilen je nach Stufe ihres Karawanenführers. Hat der Karawanenführer Stufe 0 o. 1 so darf der Spieler maximal 2 Ressourcen behalten. Bei Stufe 2 darf der jeweilige Spieler 4 Ressourcen behalten. 
-	c)Spieler 2 fängt nun als erster an.
+
+In Phase 3 kriegt der Spieler, mit den meisten Gebäuden einen Bonuspunkt hinzu.
+
+
+Phase 4(Produktionsphase):
+
+siehe Phase 2.
+
+
+Phase 5:
+
+In Phase 5 kriegt der Spieler, mit den wenigsten Gebäuden, bei Gleichstand der Spieler mit den wenigsten Ressourcen,
+einen Gesandten zugeteilt. Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner den Gesandten.
+Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen verwendet werden:
 	
-Spielende:
-Das Spielendet bei 2 Spielern, sobald nur noch 3 oder weniger Gartenfelder frei sind und bei 3 bzw. 4 Spielern wenn nur noch 4 Gartenfelder frei sind. Gewonnen hat derjenige, der die meisten Prestigepunkte hat.
+	a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal
+	   belegt werden. Es müssen jedoch trotzdem die Würfel benutzt werden. 
+
+	b) Während der Konstruktionsphase der Gebäude, dürfen zwei Gebäude gebaut werden. Es müssen jedoch
+	   für beide Gebäude die Ressourcen bezahlt werden
+
+Wird der Gesandte bis zur Phase 5 des nächsten Jahres nicht benutzt wird er erneut vergeben.
+
+
+Phase 6(Produktionsphase):
+
+s.o.
+
+
+Phase 7:	 
+
+In dieser Phase haben Spieler die Möglichkeit, zwei beliebige Ressourcen gegen einen Militärpunkt einzutauschen.
+
+
+Phase 8(Jahresende):
+
+Am Ende des Jahres wird ein zufälliger Gegner aufgedeckt, gegen den gekämpft wird. 
+Nun kommt es auf die Militärpunkte an. Zunächst wird ein weißer Würfel gewürfelt, der bestimmt,
+wieviele Militärpunkte der König jedem Spieler zusätzlich gibt. Nun wird geguckt wie stark der Gegner ist,
+was variieren kann. In Jahr 1 haben die Gegner 2 - 4 Stärkepunkte und von Jahr zu Jahr werden die Gegner stärker.
+Hat man also mehr Militärpunkte als der Gegner, so kriegt man einen Bonus bzw. einen Malus wenn man weniger 
+Punkte hat als der Gegner. 
+Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressourcen, oder man muss sein stärkstes
+Gebäuden zerstören. 
+
+Nach dieser Phase fängt das nächste Jahr an. Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten. 
 
 
 
+
+
+
+
+
+
+
+ 
