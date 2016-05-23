@@ -84,6 +84,19 @@ Nach dieser Phase fängt das nächste Jahr an. Am Ende des 5.Jahres gewinnt der 
 
 
 
+Umsetzung:
+
+Es soll einen Startbildschirm geben, der als Startbutton das Cover des Spiels hat, auf das der User drücken muss um das Spiel zu starten. 
+Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Als nächstes soll die Spieleranzahl ausgewählt werden(2-5).
+Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü zurück zu kehren, das Spiel zu beenden und den Spielstand zu speichern.
+
+
+
+
+
+
+
+
 ===================================
 === Feedback Alpers, 2016-05-17 ===
 ===================================
