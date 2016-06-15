@@ -1,5 +1,7 @@
 <?php 
 
+include 'GameBoard.html';
+
 
 
 
