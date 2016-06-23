@@ -1,4 +1,8 @@
-﻿Kingsburg: 
+﻿==========================================
+=== Projektidee Turing1887, 2016-06-03 ===
+==========================================
+
+Kingsburg: 
 
 Für mein Projekt möchte ich das Brettspiel Kingsburg als webbasierte Anwendung umsetzen. Das Spiel Kingsburg ist ein Strategiespiel,
 mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen. Es gibt 5 Jahre mit jeweils 7 Phasen. 
@@ -7,16 +11,16 @@ einen Malus einbringt. Am Ende gewinnt derjenige mit den meisten Punkten.
 
 Spieleranzahl: 2-5
 
-
+======================
 Phase 1(Spielbeginn):
-
+======================
 Das Spiel beginnt in Phase 1 des ersten Jahres. Jeder Spieler bekommt 3 Würfel. 
 In der ersten Phase bekommt der Spieler, mit den wenigsten Gebäuden einen zusätzlichen weißen Würfel. 
 Da in der ersten Phase jedoch noch kein Spieler Gebäude besitzt wird diese Phase übersprungen.
 
-
+======================
 Phase 2(Produktionsphase):
-
+======================
 In der Produktionsphase wird gewürfelt. 
 Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen.
 Die Berater geben entweder Punkte, einen Rohstoff(Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist,
@@ -32,19 +36,19 @@ Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hier
 man muss auf der linken Seite der Reihe mit dem Bauen anfangen bevor man die Gebäude bauen kann die weiter rechts sind.
 Es ist erlaubt, jederzeit eine neue Reihe anzufangen. 
 
-
+======================
 Phase 3:
-
+======================
 In Phase 3 kriegt der Spieler, mit den meisten Gebäuden einen Bonuspunkt hinzu.
 
-
+======================
 Phase 4(Produktionsphase):
-
+======================
 siehe Phase 2.
 
-
+======================
 Phase 5:
-
+======================
 In Phase 5 kriegt der Spieler, mit den wenigsten Gebäuden, bei Gleichstand der Spieler mit den wenigsten Ressourcen,
 einen Gesandten zugeteilt. Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner den Gesandten.
 Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen verwendet werden:
@@ -57,19 +61,19 @@ Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen
 
 Wird der Gesandte bis zur Phase 5 des nächsten Jahres nicht benutzt wird er erneut vergeben.
 
-
+======================
 Phase 6(Produktionsphase):
-
+======================
 s.o.
 
-
+======================
 Phase 7:	 
-
+======================
 In dieser Phase haben Spieler die Möglichkeit, zwei beliebige Ressourcen gegen einen Militärpunkt einzutauschen.
 
-
-Phase 8(Jahresende):
-
+======================
+= Phase 8(Jahresende):
+======================
 Am Ende des Jahres wird ein zufälliger Gegner aufgedeckt, gegen den gekämpft wird. 
 Nun kommt es auf die Militärpunkte an. Zunächst wird ein weißer Würfel gewürfelt, der bestimmt,
 wieviele Militärpunkte der König jedem Spieler zusätzlich gibt. Nun wird geguckt wie stark der Gegner ist,
@@ -81,21 +85,13 @@ Gebäuden zerstören.
 
 Nach dieser Phase fängt das nächste Jahr an. Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten. 
 
-
-
-
-Umsetzung:
-
+======================
+== Umsetzung: ==
+======================
 Es soll einen Startbildschirm geben, der als Startbutton das Cover des Spiels hat, auf das der User drücken muss um das Spiel zu starten. 
-Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Als nächstes soll die Spieleranzahl ausgewählt werden(2-5).
+Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. 
+Als nächstes soll die Spieleranzahl ausgewählt werden(2-5).
 Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü zurück zu kehren, das Spiel zu beenden und den Spielstand zu speichern.
-
-
-
-
-
-
-
 
 ===================================
 === Feedback Alpers, 2016-05-17 ===
@@ -103,9 +99,6 @@ Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü z
 
 Beim letzten Mal hatten Sie ein fremdes Repository (das von TheCanadians) geclont, woraufhin ich Ihnen deutlich gesagt habe, dass Sie ein eigenes Projekt umsetzen müssen. Dieses Mal haben Sie eine Beschreibung zu einem Projekt erstellt, das TheCanadians umsetzen soll. Deshalb hier nochmal der Hinweis: Sie müssen ein eigenes Projekt umsetzen. Es ist zwar sehr gut, wenn Sie dabei mit anderen Kommilitonen zusammen arbeiten, aber es muss ein eigenständiges Projekt sein. Denn damit Sie in späteren Projekten nicht Ihren Kommilitonen zur Last fallen bzw. als Softwareentwickler tätig werden zu können, müssen Sie im Stande sein, die grundlegenden Aufgabenstellungen individuell zu erfüllen. Bitte erstellen Sie deshalb eine Projektbeschreibung basierend auf dem Brettspiel Kingsburg http://www.brettspiele-report.de/kingsburg/
 
-<<<<<<< HEAD
- 
-=======
 Beachten Sie dabei aber bitte, dass Sie auch in diesem Fall eine Anwendung entwickeln sollen, bestimmte Anforderungen im Bereich Webbasierung und Interaktivität beinhaltet:
 
 Nach der Zusammenfassung sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
@@ -117,4 +110,33 @@ Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen 
 Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alle ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
 
 Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
->>>>>>> 692acb7dde6f8255cbb3808be0dbb39f909924cf
+
+===================================
+=== Feedback Alpers, 2016-06-23 ===
+===================================
+
+Leider ist Ihre Beschreibung noch deutlich zu nahe am Regelwerk des Brettspiels. Eine Beschreibung sollte in den ersten Zeilen Lust darauf machen, mehr zu erfahren.
+
+Denken Sie bitte auch daran, dass es nicht um eine 1:1-Umsetzung des Brettspiels selbst geht. Hier denke ich beispielsweise an die Spielerzahl: Es sollte möglich sein, dass ein Spieler das Spiel alleine spielen kann (Stichwort: Computergegner), aber schauen Sie auch, welche Möglichkeiten es gibt, um das Spiel für mehr als 5 Spieler anzupassen.
+
+Danach sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Hier sind Sie leider auch zu nahe am Brettspiel: Bei einem Computerspiel werden keine Würfel geworfen. Die Projektbeschreibung ist also im Kern eine Inhaltsangabe. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
+
+Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
+
+Hier noch ein Absatz dazu, wofür der Begriff Interaktivität in diesem Projekt steht, weil der Begriff nicht eindeutig ist: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alles ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
+
+Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+=====================
+=== Feedback Ende ===
+=====================
