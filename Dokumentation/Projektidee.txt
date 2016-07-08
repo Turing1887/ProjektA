@@ -9,7 +9,7 @@ mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen. Es gibt 5
 Am Ende jedes Jahres kämpfen die Spieler gegen einen Gegner der bei einem Sieg einen Bonus, bei einer Niederlage
 einen Malus einbringt. Am Ende gewinnt derjenige mit den meisten Punkten.
 
-Spieleranzahl: 2-5
+Spieleranzahl: 1-5
 
 ======================
 Phase 1(Spielbeginn):
@@ -84,6 +84,24 @@ Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressour
 Gebäuden zerstören. 
 
 Nach dieser Phase fängt das nächste Jahr an. Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten. 
+
+====================
+Für 1 Spieler:
+====================
+Das Spiel ist zwar als Multiplayerspiel konzipiert, bietet jedoch eine Art Arcade Modus für Einzelspieler. 
+Der Modus ist darauf ausgelegt seine Armee über 4 Runden so aufzubauen, dass in der 5. Phase, 
+der Kampfesphase, man stark genug ist um den Gegner zu besiegen. Ziel ist es, 3 Wellen von á 5 Gegnern zu überstehen. 
+Der 5. Gegner ist jeweils ein Boss und stärker als die vorherigen Gegner. 
+
+Die Phasen 1-3 entsprechen den normalen Produktionsphasen.
+Die 4. Phase entspricht der Rekrutierungsphase, während der man gegen Rohstoffe seine Armee verstärken kann. 
+Im Arcademodus soll es jedoch so sein, dass man sich entscheiden soll, ob man Rohstoffe bezahlt um neue Soldaten zu kriegen,
+oder ob man seine Rohstoffe behält und selber in den Kampf zieht. Ist dies der Fall, bleibt die Kampfstärke
+wie sie ist und man kriegt zwei beliebige Rohstoffe für die nächste Runde hinzu. 
+Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 Runden gibt es einen Bosskampf,
+der nochmal signifikant stärker ist. 
+
+Übersteht man alle 15 Runden, so hat man gewonnen.
 
 ======================
 == Umsetzung: ==
