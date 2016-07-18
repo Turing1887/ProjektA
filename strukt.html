@@ -1,89 +1,91 @@
-<!-- 
-	-01-Startbildschirm 
-	-02-Image als Button
-	-03-Log-In Maske
-	-04-Textfeld Username
-	-05-Textfeld Passwort
-	-06-submit button
-	-07-Textfeld für die Spieleranzahl
-	-08-Submit button
-	-09-Textfeld Anzeigenamen im Spiel
-	-10-Spielfeld:
-	-11-Menü mit Buttons (Zurück zum Menü,Exit,Save,Link zu den Spielregeln usw..)
-	-12-Eine 5x4 Tabelle für die Berater
-	-13-Eine 3x6 Tabelle für die Ressource und Punkte der Spieler
-	-14-1x8 Tabelle für die Phasen
-	-15-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen 
-	-16-Drei Buttons, um auf die Gebäudeliste zu kommen 
-	-17-Einen Bereich, in dem der Gegner angezeigt wird
-	-18-Drei Buttons, um auf die Gebäudeliste zu kommen
-	-19-Einen Bereich, in dem der Gegner angezeigt wird
-	-20-Zurücksetzen Button
-	-21-Anzeigebereich für die Kampfkraft des Spielers
-	-22-Anzeigebereich für den Gegner
-	-23-Button um den Kampf zu starten in der entsprechenden Phase (Random Monster spawn)
+<!--
 
-	-Startbildschirm 
-		-Image als Button
-	-Log-In Maske
-		-Textfeld Username
-		-Textfeld Passwort
-		-submit button
-	-Textfeld für die Spieleranzahl
-		-Submit button
-	-Textfeld Anzeigenamen im Spiel
-	-Spielfeld:
-		-Menü mit Buttons (Zurück zum Menü,Exit,Save,Link zu den Spielregeln usw..)
-		-Eine 5x4 Tabelle für die Berater
-		-Eine 3x6 Tabelle für die Ressource und Punkte der Spieler
-		-1x8 Tabelle für die Phasen
-		-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen 
-		-Drei Buttons, um auf die Gebäudeliste zu kommen 
+=======Liste der Elemente=======
+	-01-Image als Button
+	-02-Inputfeld Username
+	-03-Inputfeld Passwort
+	-04-submit button
+	-05-Textfeld für die Spieleranzahl
+	-06-Submit button
+	-07-Textfeld Anzeigenamen im Spiel
+	-08-Button zurück zum Startbildschirm
+	-09-5x4 Tabelle für die Berater
+	-10-3x6 Tabelle für die Ressource und Punkte der Spieler
+	-11-1x8 Tabelle für die Phasen
+	-12-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen
+	-13-Buttons, um auf die Gebäudeliste zu kommen
+	-14-Buttons, um auf die Gebäudeliste zu kommen
+	-15-Zurücksetzen Button
+	-16-Anzeigebereich für die Kampfkraft des Spielers
+	-17-Anzeigebereich für den Gegner
+	-18-Button um den Kampf zu starten in der entsprechenden Phase (Random Monster spawn)
+	-19-Lade Button
+	-20-Passwort label
+	-21-Username label
+	-22-Inputfeld Email
+	-23-Email Label
+	-24-Button save
+	-25-Button Spielregeln
+	-26-Button Quit
 
-	-Einen Bereich, in dem der Gegner angezeigt wird
-
-
-=======
-	--Game board--
-		IV.
-		-09-Textfeld Anzeigenamen im Spiel
-		-14-Eine 3x6 Tabelle für die Ressource und Punkte der Spieler
-		-17-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen 
-		-18-Drei Buttons, um auf die Gebäudeliste zu kommen 
+=======Gruppen=======
+	-I.Startbildschirm
+		-01-Image als Button
+		-19-Lade Button
 		
-		V.
-		-10-Button um zum Menü zurückzukehren
-		-11-Button um zu Speichern
-		-12-Button mit link zu den Spielregeln
-		-13-Button um das Spiel zu verlassen
+	-II.Log-In Maske
+		-02-Inputfeld Username
+		-03-Inputfeld Passwort
+		-04-submit button
 		
-		VI.
-		-15-Eine 5x4 Tabelle für die Berater
-		-16-1x8 Tabelle für die Phasen
-		-19-Einen Bereich, in dem der Gegner angezeigt wird
+	-III.Spieleranzahl
+		-05-Textfeld für die Spieleranzahl
+		-04-Submit button
 		
-		VII.
-		-21-Anzeigebereich für die Kampfkraft des Spielers
-		-22-Anzeigebereich für den Gegner
-		-23-Button um den Kampf zu starten in der entsprechenden Phase(Random Monster spawn)
-	
-	--view_index--
-		I.
-		-01-Startbildschirm mit Bild
-		-02-Start Button
-		-03-Lade Button
-			
-	--Player count screen--		
-		III.
-		-07-Textfeld für die Spieleranzahl
-		-08-Submit button	
-			
-	--Login screen--
-		II.
-		-04-Textfeld Username
-		-05-Textfeld Passwort
-		-06-submit button
-		-20-Zurücksetzen Button
+	-IV.Spielfeld:
+		-09-5x4 Tabelle für die Berater
+		-10-3x6 Tabelle für die Ressource und Punkte der Spieler
+		-11-1x8 Tabelle für die Phasen
+		-12-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen
+		-13-Buttons, um auf die Gebäudeliste zu kommen
+		-16-Anzeigebereich für die Kampfkraft des Gegners
+		-17-Anzeigebereich für den Gegner
+		-18-Button um den Kampf zu starten
+		
+	-V.Registrieren:
+		-02-Inputfeld Username
+		-03-Inputfeld Passwort
+		-03-Inputfeld Passwort(repeat)
+		-20-Passwort label
+		-20-Passwort Label(repeat)
+		-21-Username Label
+		-04-Submit button
+		-22-Inputfeld email
+		-23-Email Label
+		
+	-VI.Menü
+		-08-Button zurück zum Startbildschirm
+		-24-Button save
+		-25-Button Spielregeln
+		-26-Button quit
+
+
+
+
+=======Views=======
+	==view_gameboard==
+			IV. Spielfeld
+			VI. Menü
+
+	==view_index==
+			I.Startbildschirm
+
+	==view_spieleranzahl==
+			III. Spieleranzahl
+
+	==view_loginscreen==
+			II.Log-In-maske
+
 
 -->
 
