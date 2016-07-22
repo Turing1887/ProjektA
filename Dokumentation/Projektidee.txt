@@ -4,17 +4,19 @@
 
 Kingsburg: 
 
-Für mein Projekt möchte ich das Brettspiel Kingsburg als webbasierte Anwendung umsetzen. Das Spiel Kingsburg ist ein Strategiespiel,
-mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen. Es gibt 5 Jahre mit jeweils 7 Phasen. 
-Am Ende jedes Jahres kämpfen die Spieler gegen einen Gegner der bei einem Sieg einen Bonus, bei einer Niederlage
-einen Malus einbringt. Am Ende gewinnt derjenige mit den meisten Punkten.
+Für mein Projekt möchte ich das Brettspiel Kingsburg als webbasierte Anwendung umsetzen. 
+Das Spiel Kingsburg ist ein Strategiespiel, mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen. 
+Es gibt 5 Jahre mit jeweils 7 Phasen. 
+Am Ende jedes Jahres kämpfen die Spieler gegen einen Gegner der bei einem Sieg einen Bonus, bei einer Niederlage einen Malus einbringt. 
+Am Ende gewinnt derjenige mit den meisten Punkten.
 
 Spieleranzahl: 1-5
 
 ======================
 Phase 1(Spielbeginn):
 ======================
-Das Spiel beginnt in Phase 1 des ersten Jahres. Jeder Spieler bekommt 3 Würfel. 
+Das Spiel beginnt in Phase 1 des ersten Jahres. 
+Jeder Spieler bekommt 3 Würfel. 
 In der ersten Phase bekommt der Spieler, mit den wenigsten Gebäuden einen zusätzlichen weißen Würfel. 
 Da in der ersten Phase jedoch noch kein Spieler Gebäude besitzt wird diese Phase übersprungen.
 
@@ -23,17 +25,19 @@ Phase 2(Produktionsphase):
 ======================
 In der Produktionsphase wird gewürfelt. 
 Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen.
-Die Berater geben entweder Punkte, einen Rohstoff(Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist,
-militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines Würfels zu erhöhen.
-Jeder Spieler kann nun einen Berater für sich beanspruchen in dem er die Würfel mit der entsprechenden Augenzahl 
-auf den Berater legt. Die Augenzahlen können auch zusammen gezählt werden. 
-Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden.
+Die Berater geben entweder Punkte, einen Rohstoff(Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines Würfels zu erhöhen.
+Jeder Spieler kann nun einen Berater für sich beanspruchen in dem er die Würfel mit der entsprechenden Augenzahl auf den Berater legt. 
+Die Augenzahlen können auch zusammen gezählt werden. 
+Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. 
+Ein Berater kann nur einmal belegt werden.
 Am Ende müssen entweder alle Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt.
 
-Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. 
-Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. 
-Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet 
-man muss auf der linken Seite der Reihe mit dem Bauen anfangen bevor man die Gebäude bauen kann die weiter rechts sind.
+Nun können die Spieler ein Gebäude bauen. 
+Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. 
+Die Gebäude sind nicht Spielerabhängig. 
+Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. 
+Zum Bauen eines Gebäudes benötigt man Ressourcen. 
+Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet man muss auf der linken Seite der Reihe mit dem Bauen anfangen bevor man die Gebäude bauen kann die weiter rechts sind.
 Es ist erlaubt, jederzeit eine neue Reihe anzufangen. 
 
 ======================
@@ -49,8 +53,9 @@ siehe Phase 2.
 ======================
 Phase 5:
 ======================
-In Phase 5 kriegt der Spieler, mit den wenigsten Gebäuden, bei Gleichstand der Spieler mit den wenigsten Ressourcen,
-einen Gesandten zugeteilt. Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner den Gesandten.
+In Phase 5 kriegt der Spieler, mit den wenigsten Gebäuden, bei Gleichstand der Spieler mit den wenigsten Ressourcen, einen Gesandten zugeteilt. 
+Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner den Gesandten.
+
 Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen verwendet werden:
 	
 	a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal
@@ -75,31 +80,29 @@ In dieser Phase haben Spieler die Möglichkeit, zwei beliebige Ressourcen gegen 
 = Phase 8(Jahresende):
 ======================
 Am Ende des Jahres wird ein zufälliger Gegner aufgedeckt, gegen den gekämpft wird. 
-Nun kommt es auf die Militärpunkte an. Zunächst wird ein weißer Würfel gewürfelt, der bestimmt,
-wieviele Militärpunkte der König jedem Spieler zusätzlich gibt. Nun wird geguckt wie stark der Gegner ist,
-was variieren kann. In Jahr 1 haben die Gegner 2 - 4 Stärkepunkte und von Jahr zu Jahr werden die Gegner stärker.
-Hat man also mehr Militärpunkte als der Gegner, so kriegt man einen Bonus bzw. einen Malus wenn man weniger 
-Punkte hat als der Gegner. 
-Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressourcen, oder man muss sein stärkstes
-Gebäuden zerstören. 
+Nun kommt es auf die Militärpunkte an. 
+Zunächst wird ein weißer Würfel gewürfelt, der bestimmt, wieviele Militärpunkte der König jedem Spieler zusätzlich gibt. 
+Nun wird geguckt wie stark der Gegner ist, was variieren kann. 
+In Jahr 1 haben die Gegner 2 - 4 Stärkepunkte und von Jahr zu Jahr werden die Gegner stärker.
+Hat man also mehr Militärpunkte als der Gegner, so kriegt man einen Bonus bzw. einen Malus wenn man weniger Punkte hat als der Gegner. 
+Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressourcen, oder man muss sein stärkstes Gebäuden zerstören. 
 
-Nach dieser Phase fängt das nächste Jahr an. Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten. 
+Nach dieser Phase fängt das nächste Jahr an. 
+Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten. 
 
 ====================
 Für 1 Spieler:
 ====================
 Das Spiel ist zwar als Multiplayerspiel konzipiert, bietet jedoch eine Art Arcade Modus für Einzelspieler. 
-Der Modus ist darauf ausgelegt seine Armee über 4 Runden so aufzubauen, dass in der 5. Phase, 
-der Kampfesphase, man stark genug ist um den Gegner zu besiegen. Ziel ist es, 3 Wellen von á 5 Gegnern zu überstehen. 
+Der Modus ist darauf ausgelegt seine Armee über 4 Runden so aufzubauen, dass in der 5. Phase, der Kampfesphase, man stark genug ist um den Gegner zu besiegen.
+Ziel ist es, 3 Wellen von á 5 Gegnern zu überstehen. 
 Der 5. Gegner ist jeweils ein Boss und stärker als die vorherigen Gegner. 
 
 Die Phasen 1-3 entsprechen den normalen Produktionsphasen.
 Die 4. Phase entspricht der Rekrutierungsphase, während der man gegen Rohstoffe seine Armee verstärken kann. 
-Im Arcademodus soll es jedoch so sein, dass man sich entscheiden soll, ob man Rohstoffe bezahlt um neue Soldaten zu kriegen,
-oder ob man seine Rohstoffe behält und selber in den Kampf zieht. Ist dies der Fall, bleibt die Kampfstärke
-wie sie ist und man kriegt zwei beliebige Rohstoffe für die nächste Runde hinzu. 
-Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 Runden gibt es einen Bosskampf,
-der nochmal signifikant stärker ist. 
+Im Arcademodus soll es jedoch so sein, dass man sich entscheiden soll, ob man Rohstoffe bezahlt um neue Soldaten zu kriegen, oder ob man seine Rohstoffe behält und selber in den Kampf zieht. 
+Ist dies der Fall, bleibt die Kampfstärke wie sie ist und man kriegt zwei beliebige Rohstoffe für die nächste Runde hinzu. 
+Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 Runden gibt es einen Bosskampf, der nochmal signifikant stärker ist. 
 
 Übersteht man alle 15 Runden, so hat man gewonnen.
 
@@ -155,6 +158,34 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Voraussetzung bekannten Wissens: 0 
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
 
-=====================
-=== Feedback Ende ===
-=====================
+===================================
+=== Feedback Alpers, 2016-07-22 ===
+===================================
+
+== I ==
+Zu Beginn haben Sie noch Formulierungen wie bei einem Brettspiel: "Jeder Spieler bekommt 3 Würfel." Stellen Sie bitte sicher, dass es sich hier um eine Beschreibung handelt, die nicht aus dem Brettspielbereich kommt.
+
+== II ==
+Hinweis bezüglich der Formatierung: Sie haben jeweils nach einer festen Anzahl Zeichen einen manuellen Zeilenumbruch verwendet. Das ist bei Teamarbeit schlecht, weil andere Teammitglieder in aller Regel das Fenster mit einer indivdiuellen Größe einstellen. Konfigurieren Sie Ihren Editor im Bedarfsfall so, dass ein Zeilumbruch zwar angezeigt, aber nicht im Dokument gespeichert wird.
+
+== III ==
+Arbeiten Sie bitte weiter an den Formulierungen und der Reihenfolge, in der die Beschreibung durchgeführt wird. Sie werden hier an vielen Stellen noch etwas ergänzen müssen. Im folgenden habe ich zwei der vielen Stellen herausgesucht, an denen Sie noch arbeiten müssen:
+
+- "Das Spiel Kingsburg ist ein Strategiespiel, mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen."
+Diese Satz erfordert vom Leser einige Kenntnisse und vermittelt ggf. falsche Eindrücke:
+1) Wie müssen wir uns das Territorium vorstellen? Was ist mit neu erworben gemeint? Ist das überhaupt relevant, um eine Idee davon zu bekommen, was das Spiel ausmacht?
+2) Ist es relevant, dass es hier einen König gibt? (Nach Lesen der restlichen Beschreibung klingt es so, als wenn das gänzlich irrelevant wäre.)
+3) Der Begriff Strategiespiel vermittelt vorrangig den Eindruck, Spieler müssten (militärisch-)strategische Entscheidungen treffen. Beim Lesen der Beschreibung wirkt es dagegen so, als wenn Zufall und einfache numerische Werte darüber entscheiden, welcher Spieler gewinnt.
+
+- "In der ersten Phase bekommt der Spieler, mit den wenigsten Gebäuden einen zusätzlichen weißen Würfel."
+Hier gibt es zwei Probleme:
+1) Sie reden von einem weißen Würfel. Das ist eine Beschreibung aus einem Brettspiel.
+2) An dieser Stelle ist zum ersten Mal die Rede von Gebäuden. Das ist schlecht, weil so unklar ist, was es mit Gebäuden auf sich hat.
+
+== IV ==
+Insgesamt ist die Beschreibung bezüglich des Spielablaufs gut. Dummerweise brauchen Sie für die Entwicklung der strukturellen Elemente aber eben nicht den Spielablauf, sondern eine Beschreibung all der Elemente, aus denen das Spiel besteht. Bevor Sie an anderen Stellen des Projekts weiter arbeiten müssen Sie hier deutlich nachgebessert haben, denn im schlimmsten Fall (und damit wären wir bei einem der Kernprobleme von Einsteigern in die Arbeit mit Softwareprojekten) müssen Sie nach der angepassten Beschreibung die komplette Struktur neu entwickeln.
+
+== V ==
+Es fehlen auch weiter die Teile in Ihrer Beschreibung, in denen Interaktion und Webbasierung geklärt werden. Insbesondere ist es schlecht, dass Sie die Spielerzahl beschränken.
+
+Deshalb zurzeit keine Wertung für den strukturellen Teil des Projekts.
