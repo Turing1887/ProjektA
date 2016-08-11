@@ -10,42 +10,42 @@
             <a href="PlayerCountScreen.html"><button id="playerMenuButton">Menu</button></a>
             <a href=""><button id="saveButton">Save</button></a>
             <a href="https://images-cdn.fantasyflightgames.com/filer_public/01/74/0174d10b-b406-44d8-ab7e-f9a6d31046b4/kingsburg-rules.pdf" target="_blank"><button id="gameManual">Game manual</button></a>
-            <a href=""><button id="quitButton">Quit</button></a>
+            <a href="StartScreen.html"><button id="quitButton">Quit</button></a>
         </nav>
         <hr>
-		
-		 <section>
+
+		  <section>
             <table border="1">
             <tr>
-                <td>
+                <td id="phase1">
                     Phase 1
                 </td>
-                <td>
+                <td id="phase2">
                     Phase 2
                 </td>
-                <td>
+                <td id="phase3">
                     Phase 3
                 </td>
-                <td>
+                <td id="phase4">
                     Phase 4
                 </td>
-                <td>
+                <td id="phase5">
                     Phase 5
                 </td>
-                <td>
+                <td id="phase6">
                     Phase 6
                 </td>
-                <td>
+                <td id="phase7">
                     Phase 7
                 </td>
-                <td>
+                <td id="phase8">
                     Phase 8
                 </td>
             </tr>
             </table>
         </section>
-		<hr>
-		
+		    <hr>
+
         <section>
             <table border="1">
             <tr>
@@ -59,7 +59,10 @@
                 </td>
             </tr>
             </table>
-            <button id="dice1">Dice 1</button><br>
+
+            <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+              <input type="submit" name="dice" id="dice1" value="Dice"><br>
+            </form>
 
             <table border="1">
             <tr>
@@ -82,7 +85,7 @@
             <table style="width:30%;" border="1">
                 <tr>
                     <td>
-                    Gold            
+                    Gold
                     </td>
                      <td>
                     Wood
@@ -99,7 +102,7 @@
                      0
                     </td>
                      <td>
-                     0 
+                     0
                     </td>
                      <td>
                      0
@@ -113,7 +116,7 @@
              <table style="width:30%;" border="1">
                 <tr>
                     <td>
-                    Gold            
+                    Gold
                     </td>
                      <td>
                     Wood
@@ -130,7 +133,7 @@
                      0
                     </td>
                      <td>
-                     0 
+                     0
                     </td>
                      <td>
                      0
@@ -142,7 +145,7 @@
             </table><br>
             </section>
             <hr>
-			
+
             <section>
             <h1>The King's Advisors</h1>
              <table style="width:25%"  border="1">
@@ -215,9 +218,9 @@
             </table> <br>
             </section>
 			<hr>
-			
-           
-		
+
+
+
 		<section>
 		<h1>Building List</h1>
 		<table border="1" style="width:30%">
@@ -251,7 +254,14 @@
 			</tr>
 		</table>
 		</section>
-		
-		
+    <hr>
+
+    <section>
+      <h1>Kampf</h1>
+
+      <button>Start</button>
+
+    </section>
+
     </body>
 </html>
