@@ -14,9 +14,5 @@ function roll_the_dice(){
 
 }
 
-if(isset($_POST['dice'])){
-  roll_the_dice();
-}
-
 
 ?>
