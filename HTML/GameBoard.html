@@ -67,6 +67,9 @@
             <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
               <input type="submit" name="dice" id="dice1" value="Dice"><br>
             </form>
+            <section id="number-box">
+              <?php if(isset($_POST['dice'])){ roll_the_dice(); }?>
+            </section>
 
             <table border="1">
             <tr>
