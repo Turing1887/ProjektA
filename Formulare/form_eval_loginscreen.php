@@ -17,7 +17,7 @@
     }
 	}
 	if($success == true){
-		header("Location: ../HTML/view_spieleranzahl.html");
+		header("Location: ../Gruppen_de/view_spieleranzahl.html");
 	}
 	else{
 		echo "err";
