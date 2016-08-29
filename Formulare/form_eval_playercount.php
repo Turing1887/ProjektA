@@ -1,6 +1,6 @@
 <?php
 
-header("Location: ../Gruppen_de/view_gameboard.html");
+header("Location: ../Gruppen_de/php_code.php");
 
 
 ?>
