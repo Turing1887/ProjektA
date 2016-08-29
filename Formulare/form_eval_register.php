@@ -12,7 +12,7 @@ $cookie_name = $new_user;
     $new_user = $username . "|" . $password;
 
     $userfile = fopen('user-file.txt','a') or die ("unable to open file");
-    fwrite($userfile,$new_user);
+    fwrite($userfile,$new_user . PHP_EOL);
     //fwrite($userfile,$password . "\n");
     fclose($userfile);
 
