@@ -4,7 +4,7 @@
 	$file = fopen('user-file.txt','r');
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	$file_array = file('user-file.txt');
+	$file_array = file('user-file.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 	$array_length = count($file_array);
 	$success = false;
 
@@ -17,7 +17,7 @@
     }
 	}
 	if($success == true){
-		header("Location: ../Gruppen_de/view_spieleranzahl.html");
+		header("Location: ../Gruppen_de/view_spielmodi.html");
 	}
 	else{
 		echo "err";
