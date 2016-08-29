@@ -1,16 +1,16 @@
-<?php 
+<?php
 $gamemode = $_POST["gamemode"];
 
 switch($gamemode){
     case "local":
-        header("Location: ../HTML/PlayerCountScreen.html");
+        header("Location: ../HTML/view_spieleranzahl.html");
         break;
     case "singleplayer":
-        header("Location: ../HTML/GameBoard.html");
+        header("Location: ../HTML/view_gameBoard.html");
         break;
     case "lan":
-        header("Location: ../HTML/GameBoard.html");
-        break;        
+        header("Location: ../HTML/view_gameboard.html");
+        break;
 }
 
 ?>

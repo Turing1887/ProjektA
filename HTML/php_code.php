@@ -1,6 +1,6 @@
 <?php
 
-include ('GameBoard.html');
+include ('view_gameboard.html');
 
 
 function roll_the_dice(){

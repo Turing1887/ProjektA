@@ -17,7 +17,7 @@
     }
 	}
 	if($success == true){
-		header("Location: ../HTML/PlayerCountScreen.html");
+		header("Location: ../HTML/view_spieleranzahl.html");
 	}
 	else{
 		echo "err";
