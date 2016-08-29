@@ -1,5 +1,5 @@
 <?php
 
-header("Location: HTML/StartScreen.html");
+header("Location: Gruppen_de/StartScreen.html");
 
 ?>
