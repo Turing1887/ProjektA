@@ -145,16 +145,19 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
 * Startbildschirm mit Start und Lade <button>
 * Loginmaske mit <Textfeldern> für Username und Password, sowie Button zum Registrieren
 * Registrierbildschirm mit <Textfeldern> für Username, Password, und “Repeat Passwort”
-* Menü für die Auswahl der Spieleranzahl. (Lokales Spiel)
+* Benutzerdaten werden vorerst in einer einfachen .txt-Datei gespeichert
+* Spielmodusbildschirm mit <input[type="radio"]> buttons für die verschiedenen Spielmodi
+* <details> Feld für die Informationen zu den Spielmodi
+* Menü mit <input[type="number"]> für die Auswahl der Spieleranzahl. (Spiel an einem Rechner)
 * Spielfeld hat verschiedene Bedienelemente:
-   * Ein <Nav>-Menü mit den <Buttons>:
+   * Ein <Nav>-Menü mit <Button> bzw <a>:
       * Spiel speichern
-      * Quit
+      * Zum Spieleranzahlbildschirm
       * Spielanleitung
       * Zurück zum Hauptmenü/Startscreen
    * Einen Bereich in dem sowohl das Jahr, als auch die Phase angezeigt werden
    * Einen Bereich für die Punkte der Spieler
-   * Nach Start klicken alle Spieler, auf den “Würfel”-<Button> um zufällige Zahlen zu erhalten. Das Spiel geht erst weiter wenn alle Spieler gewürfelt haben.
+   * Nach Start klicken alle Spieler, auf den “Dice”-<Button> um zufällige Zahlen zu erhalten. Das Spiel geht erst weiter wenn alle Spieler gewürfelt haben.
    * In der <Tabelle> der Berater werden nun die entsprechenden Berater angezeigt, die in Frage kommen, mit der virtuellen Augenzahl. 
    * Wer die kleinste Augenzahl hat darf als erster wählen
    * Dann geht es in aufsteigender Reihenfolge weiter
