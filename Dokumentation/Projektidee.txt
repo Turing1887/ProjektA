@@ -181,7 +181,7 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
             * Man kriegt Punkte
             * Es wird eine Ressource hinzugefügt
 
-
+* Es soll außerdem ein <textarea> Feld geben um mit den anderen Spielern kommunizieren zu können (also ein chat-fenster)
   
 
 
