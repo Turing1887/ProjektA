@@ -98,7 +98,7 @@ In dieser Phase haben Spieler die Möglichkeit, zwei beliebige Ressourcen gegen 
 ======================
 = Phase 8(Jahresende):
 ======================
-Am Ende des Jahres wird ein zufälliger Gegner aufgedeckt, gegen den gekämpft wird.
+Am Ende des Jahres spawnt ein zufälliger Gegner gegen den gekämpft wird.
 Nun kommt es auf die Militärpunkte an.
 Zunächst wird ein virtueller Würfel gewürfelt, der bestimmt, wieviele Militärpunkte der König jedem Spieler zusätzlich gibt.
 Nun wird geguckt wie stark der Gegner ist, was variieren kann. In Jahr 1 haben die Gegner 2 - 4 Stärkepunkte und von Jahr zu Jahr werden die Gegner stärker.
