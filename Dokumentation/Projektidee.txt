@@ -22,7 +22,9 @@ Phase 1(Spielbeginn):
 ======================
 Das Spiel beginnt in Phase 1 des ersten Jahres.
 Jeder Spieler darf sich drei zufällige Zahlen ausgeben lassen.
-In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zusätzliche Zahl ausgeben lassen. Im ersten Jahr ist dies jedoch irrelevant, da Gebäude noch keine Rolle spielen.                               Es besitzt also noch keiner Gebäude, insofern wird diese Phase übersprungen.
+
+=>Relevant ab Jahr 2:<=
+In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zusätzliche Zahl ausgeben lassen. 
 
 
 
@@ -31,7 +33,7 @@ In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zus�
 Phase 2(Produktionsphase):
 ======================
 In der Produktionsphase wird “gewürfelt”.
-Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines virtuellen Würfels zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der gewürfelten Zahlen entspricht. Die in Frage kommenden Berater werden je nach Augenzahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei virtuellen Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet man muss auf der linken Seite der Reihe mit dem Bauen anfangen bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
+Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines virtuellen Würfels zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der gewürfelten Zahlen entspricht. Die in Frage kommenden Berater werden je nach Augenzahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei virtuellen Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet das man auf der linken Seite der Reihe mit dem Bauen anfangen muss bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
 
 
 
@@ -64,7 +66,7 @@ Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner 
 Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen verwendet werden:
 
 
-a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal belegt werden. Es müssen jedoch trotzdem die Würfel benutzt werden.
+a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal belegt werden. Es müssen jedoch trotzdem die virtuellen Würfel benutzt werden
 
 
 
@@ -194,9 +196,9 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
 
 
 Es soll einen Startbildschirm geben, der als Startbutton das Cover des Spiels hat, auf das der User drücken muss um das Spiel zu starten.
-Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Zuerst muss man sich jedoch registrieren, falls es noch keinen Account gibt. Als nächstes soll die Spieleranzahl ausgewählt werden. 
-Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü zurück zu kehren, das Spiel zu beenden, die Spielregeln abzurufen und den Spielstand zu speichern.
-Das Spielfeld besteht aus einer Tabelle für die Berater, einer Tabelle für die Ressourcen und einer Tabelle für die Gebäude. Außerdem gibt es Punktestände für die Spieler. Die Zahlen für die Berater werden durch einen Button ausgegeben. Der Kampf zum Jahresende findet in zwei Bildbereichen statt. Auf der einen Seite werden seine eigenen Kampfpunkte angezeigt und auf der anderen der Gegner mit Bild und Kampfpunkten. Bei der Gebäudeliste soll man per Rechtsklick im Kontextmenü die Gebäudeinfo ausgewählt werden. So sollen auch die Berater im Detail angezeigt werden per Kontextmenü auf Rechtsklick.  
+Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Zuerst muss man sich jedoch registrieren, falls es noch keinen Account gibt. Als nächstes soll der Spielmodus ausgewählt werden. Hier kann der Spieler entscheiden zwischen "Lokal", "LAN" und "Singleplayer". "Lokal" heißt man spielt an einem Rechner. Hier wird die Spieleranzahl reduziert auf 2 - 5 Spieler. Wählt man "LAN" spielt man in einem lokalen Netzwerk über mehrere Rechner. "Singleplayer" ist der Einzelspieler-Arcademodus. 
+Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü zurück zu kehren, zum Startbildschirm zurück zu kehren(beenden), die Spielregeln abzurufen und den Spielstand zu speichern.
+Das Spielfeld besteht aus einer Tabelle für die Berater, einer Tabelle für die Ressourcen und einer Tabelle für die Gebäude. Außerdem gibt es Punktestände für die Spieler. Die Zahlen für die Berater werden durch einen Button ausgegeben. Der Kampf zum Jahresende findet in zwei Bildbereichen statt. Auf der einen Seite werden seine eigenen Kampfpunkte angezeigt und auf der anderen der Gegner mit Bild und Kampfpunkten. Bei der Gebäudeliste soll man per Rechtsklick im Kontextmenü die Gebäudeinfo ausgewählt werden. So sollen auch die Berater im Detail angezeigt werden per Kontextmenü auf Rechtsklick. Des Weiteren soll es ein Chatfenster geben in dem Spieler miteinander kommunizieren können.  
 
 
 
