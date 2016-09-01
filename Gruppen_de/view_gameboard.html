@@ -269,6 +269,17 @@
       <button>Start</button>
 
     </section>
+    <hr>
+
+    <section>
+        <h1>Chat</h1>
+        <textarea style="resize:none;" id="chat-window"></textarea>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+            <input type="text" name="msg-window" placeholder="Type a message">
+            <input type="submit" name="msg-send" value="Send">
+        </form>
+    </section>
+
 
     </body>
 </html>
