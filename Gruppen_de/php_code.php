@@ -1,4 +1,8 @@
 <?php
+session_start();
+
+$msg_array = file("chat-log.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$_SESSION['messages'] = $msg_array;
 
 include ('view_gameboard.html');
 
