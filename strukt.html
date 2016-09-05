@@ -140,3 +140,120 @@ Damit dieser Teil der Aufgabe sinnvoll ist, müssten Sie zunächst diese, dann d
 Deshalb ist dieser Teil momentan auch nicht bewertbar.
 
 -->
+
+<!--
+===================================
+=== Feedback Alpers, 2016-09-05 ===
+===================================
+
+== I. Strukturelle Elemente ==
+
+= I.1 =
+Sie haben hier ein Element definiert, bei dem es so wirkt, als wenn alle Spieler die Werte aller anderen Spieler einsehen können. Soll das wirklich so sein? Wenn ja, dann können Sie mit dieser festen Struktur keine Partien für z.B. 20 Spieler realisieren.
+
+-10-3x6 Tabelle für die Ressource und Punkte der Spieler
+
+= I.2 =
+-01-Image als Button
+
+Es gibt Hyperlinks, die ein Image nutzen und es gibt Buttons, die ein Image nutzen, aber es gibt (bezüglich der Programmierung) keine Images als Button.
+
+= I.3 =
+-07-Textfeld Anzeigenamen im Spiel
+
+Nur zur Sicherheit: Wenn Sie hier Text anzeigen lassen wollen, dann ist das kein Textfeld; Textfelder sind für Eingaben da (und somit sind es input-Container vom entsprechenden Typ).
+
+= I.4 =
+-08-Button zurück zum Startbildschirm
+
+Das ist kein Button, sondern ein (Hyper-)link, außer wenn Sie tatsächlich Inhalte der Ansicht ändern wollen und nicht auf die Startseite zurück kehren wollen. Prüfen Sie bitte noch, an welchen anderen Stellen Sie einen Button definiert haben, an denen Sie einen Link meinen.
+
+= I.5 =
+-09-5x4 Tabelle für die Berater
+
+In der Beschreibung haben Sie definiert, dass es 18 Berater geben soll, definieren hier aber eine Tabelle mit 20 Feldern.
+
+Das hat zusätzlich den Nachteil, dass Sie hier bereits das Layout festlegen und dabei festlegen, dass bei Erweiterungen keine zusätzlichen Berater möglich werden. In dem Fall müssen Sie sich überlegen, ob Sie das Spiel tatsächlich so gestalten wollen, dass bei 30 Spielern 12 keinen Berater bekommen.
+
+= I.6 =
+-13-Buttons, um auf die Gebäudeliste zu kommen
+
+Wie viele?
+
+= I.7 =
+-16-Anzeigebereich für die Kampfkraft des Spielers
+
+Ein Bereich entspricht einer Gruppe. Was soll hier enthalten sein?
+
+Sie haben noch (mindestens einmal) eine Gruppe als strukturelles Element definiert, aber die enthaltenen strukturellen Elemente vergessen. Bitte prüfen Sie, wo das jeweils der Fall ist.
+
+= I.8 =
+-18-Button um den Kampf zu starten in der entsprechenden Phase (Random Monster spawn)
+
+Das wäre bezüglich des Spielflusses eher abträglich; da das Monster (laut Beschreibung) automatisch erscheinen soll, genügt es vollkommen, wenn der Spieler auf ein erschienenes Monster reagieren muss. Evtl. ist aber auch das nicht nötig. (Das hängt davon ab, wie interaktiv der Kampf verlaufen soll.)
+
+= I.9 =
+-44-Submit button fuer die Spielmodi
+
+Es gibt lediglich eine Art von submit-Button.
+
+= I.10 =
+-12-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen
+
+Hier wird leider deutlich, dass Sie das Spiel als offline-Version konzipieren, wo also alle Spieler an einem Rechner sitzen.
+
+= I.11 =
+-34-<details> fuer die anmeldeinfo
+
+Da fehlt noch der zugehörige summary-Container.
+
+Wertung 3: Ausarbeitung der strukt. Elem.: gesamt: 4 / 10
+- Knappe Form (0 - 3 Pk.): 3
+- Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen) 1 Pk.: 4
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw. 0 bis 5 Pk. Abzug: -3 (Nötige Korrekturen der strukt. Elem.)
+
+== II. Gruppen ==
+
+= II.1 =
+-I.Startbildschirm
+
+Das ist eine Ansicht, keine Gruppe. (Es ist unschön, dass Sie Spieler nötigen, eine Schaltfläche anzuwählen, um überhaupt den Log-In bzw. die Registrierung angezeigt zu bekommen.)
+
+= II.2 =
+-II.Log-In Maske
+-V.Registrieren:
+
+Fassen Sie das, was bei beiden identisch ist bitte zu einer Gruppe zusammen. Alles, was nicht im Schnitt liegt lagern Sie dann bitte in eine zweite Gruppe aus, die die erste integriert.
+
+= II.3 =
+-III.Spieleranzahl
+
+Das würde bei einem single-Player bzw. einem offline-Titel Sinn machen. Es fehlen aber die Gruppen, über die Spieler bei einer online-Partie zusammen kommen können.
+
+Allerdings fehlt hier noch einiges: Sie haben zwar ein input-Feld und einen submit definiert, aber der Rest fehlt.
+
+= II.4 =
+-VI.Menü
+-08-Button zurück zum Startbildschirm
+-24-Button save
+-25-Button Spielregeln
+-26-Button quit
+
+Schauen Sie nochmal im Skript nach: Ein Menü enthält keine Buttons.
+
+Wertung 4: Gruppierungen: 3 / 5 (2 Pk. Abzug für die nötigen Korrekturen)
+- für jede sinnvolle Gruppe: 1
+
+== III. Ansichten ==
+
+Leider sind Ihre Ansichten fast durchgehend mit einzelnen Gruppen identisch. Eine Ansicht beinhaltet dagegen alles, was später gleichzeitig auf dem Bildschirm angezeigt wird und das ist im Regelfall eine Kombination aus mehreren Gruppen. Deshalb sind Ihre Ansichten weitgehend schlecht. (Ein Beispiel: Nachdem Nutzer sich eingeloggt haben, sollte es beispielsweise durchgehend eine Möglichkeit geben, sich wieder auszuloggen.)
+
+Wertung 5: Ansichten: 1 / 5
+- für jede sinnvolle Ansicht: 1
+
+== IV. Umsetzung in HTML ==
+
+Leider haben Sie hier meine Hinweise weitgehend nicht umgesetzt. So haben Sie keine Gruppe programmiert, die Ansichten im falschen Verzeichnis und unter falschem Namen gespeichert.
+
+Bitte überarbeiten Sie jetzt zuerste die Beschreibung, passen Sie dann die strukturellen Elemente, dann die Gruppendefinitionen und dann die Ansichten. Achten Sie anschließend darauf, was ich genau bezüglich der Programmierung von Gruppen und Ansichten geschrieben habe und kommen Sie bei Fragen und Unklarheiten bitte vorbei und sprechen Sie mich an, denn der Nachbearbeitungsbedarf ist bereits jetzt recht hoch.
+-->

@@ -2,20 +2,11 @@
 === Projektidee Turing1887, 2016-06-03 ===
 ==========================================
 
-
-
-
 Kingsburg:
-
-
-
 
 Für mein Projekt möchte ich das Brettspiel Kingsburg als webbasierte Anwendung umsetzen.
 Das Ziel des Spiels Kingsburg ist, sein Königreich mit neuen Gebäuden aufzubauen und mithilfe seiner Berater seine Armee so zu verstärken, dass man am Ende jedes Jahres gegen einen Feind gewinnen kann. Es gibt 5 Jahre mit jeweils 7 Phasen. Am Ende jedes Jahres kämpfen die Spieler gegen einen Gegner der bei einem Sieg einen Bonus, bei einer Niederlage einen Malus einbringt.
 Am Ende gewinnt derjenige mit den meisten Punkten.
-
-
-
 
 ======================
 Phase 1(Spielbeginn):
@@ -26,33 +17,24 @@ Jeder Spieler darf sich drei zufällige Zahlen ausgeben lassen.
 =>Relevant ab Jahr 2:<=
 In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zusätzliche Zahl ausgeben lassen. 
 
-
-
-
 ======================
 Phase 2(Produktionsphase):
 ======================
 In der Produktionsphase wird “gewürfelt”.
-Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines virtuellen Würfels zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der gewürfelten Zahlen entspricht. Die in Frage kommenden Berater werden je nach Augenzahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei virtuellen Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet das man auf der linken Seite der Reihe mit dem Bauen anfangen muss bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
 
+Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines virtuellen Würfels zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der gewürfelten Zahlen entspricht. Die in Frage kommenden Berater werden je nach Augenzahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei virtuellen Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. 
 
-
+Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet das man auf der linken Seite der Reihe mit dem Bauen anfangen muss bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
 
 ======================
 Phase 3:
 ======================
 In Phase 3 kriegt der Spieler, mit den meisten Gebäuden einen Bonuspunkt hinzu.
 
-
-
-
 ======================
 Phase 4(Produktionsphase):
 ======================
 siehe Phase 2.
-
-
-
 
 ======================
 Phase 5:
@@ -60,42 +42,23 @@ Phase 5:
 In Phase 5 kriegt der Spieler, mit den wenigsten Gebäuden, bei Gleichstand der Spieler mit den wenigsten Ressourcen, einen Gesandten zugeteilt.
 Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner den Gesandten.
 
-
-
-
 Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen verwendet werden:
-
 
 a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal belegt werden. Es müssen jedoch trotzdem die virtuellen Würfel benutzt werden
 
-
-
-
 b) Während der Konstruktionsphase der Gebäude, dürfen zwei Gebäude gebaut werden. Es müssen jedoch für beide Gebäude die Ressourcen bezahlt werden
 
-
-
-
 Wird der Gesandte bis zur Phase 5 des nächsten Jahres nicht benutzt wird er erneut vergeben.
-
-
-
 
 ======================
 Phase 6(Produktionsphase):
 ======================
 s.o.
 
-
-
-
 ======================
 Phase 7:
 ======================
 In dieser Phase haben Spieler die Möglichkeit, zwei beliebige Ressourcen gegen einen Militärpunkt einzutauschen.
-
-
-
 
 ======================
 = Phase 8(Jahresende):
@@ -107,14 +70,8 @@ Nun wird geguckt wie stark der Gegner ist, was variieren kann. In Jahr 1 haben d
 Hat man also mehr Militärpunkte als der Gegner, so kriegt man einen Bonus bzw. einen Malus wenn man weniger Punkte hat als der Gegner.
 Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressourcen, oder man muss sein stärkstes Gebäuden zerstören.
 
-
-
-
 Nach dieser Phase fängt das nächste Jahr an.
 Am Ende des 5.Jahres gewinnt der Spieler mit den meisten Punkten.
-
-
-
 
 ====================
 Für 1 Spieler:
@@ -124,22 +81,13 @@ Der Modus ist darauf ausgelegt seine Armee über 4 Runden so aufzubauen, dass in
 Ziel ist es, 3 Wellen von á 5 Gegnern zu überstehen.
 Der 5. Gegner ist jeweils ein Boss und stärker als die vorherigen Gegner.
 
-
-
-
 Die Phasen 1-3 entsprechen den normalen Produktionsphasen.
 Die 4. Phase entspricht der Rekrutierungsphase, während der man gegen Rohstoffe seine Armee verstärken kann.
 Im Arcademodus soll es jedoch so sein, dass man sich entscheiden soll, ob man Rohstoffe bezahlt um neue Soldaten zu kriegen, oder ob man seine Rohstoffe behält und selber in den Kampf zieht.
 Ist dies der Fall, bleibt die Kampfstärke wie sie ist und man kriegt zwei beliebige Rohstoffe für die nächste Runde hinzu.
 Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 Runden gibt es einen Bosskampf, der nochmal signifikant stärker ist.
 
-
-
-
 Übersteht man alle 15 Runden, so hat man gewonnen.
-
-
-
 
 ======================
 == Umsetzung/ Ablauf/Interaktion/Elemente: ==
@@ -184,120 +132,47 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
             * Es wird eine Ressource hinzugefügt
 
 * Es soll außerdem ein <textarea> Feld geben um mit den anderen Spielern kommunizieren zu können (also ein chat-fenster)
-  
-
-
-
-
-
-
-
-
-
 
 Es soll einen Startbildschirm geben, der als Startbutton das Cover des Spiels hat, auf das der User drücken muss um das Spiel zu starten.
 Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Zuerst muss man sich jedoch registrieren, falls es noch keinen Account gibt. Als nächstes soll der Spielmodus ausgewählt werden. Hier kann der Spieler entscheiden zwischen "Lokal", "LAN" und "Singleplayer". "Lokal" heißt man spielt an einem Rechner. Hier wird die Spieleranzahl reduziert auf 2 - 5 Spieler. Wählt man "LAN" spielt man in einem lokalen Netzwerk über mehrere Rechner. "Singleplayer" ist der Einzelspieler-Arcademodus. 
 Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü zurück zu kehren, zum Startbildschirm zurück zu kehren(beenden), die Spielregeln abzurufen und den Spielstand zu speichern.
 Das Spielfeld besteht aus einer Tabelle für die Berater, einer Tabelle für die Ressourcen und einer Tabelle für die Gebäude. Außerdem gibt es Punktestände für die Spieler. Die Zahlen für die Berater werden durch einen Button ausgegeben. Der Kampf zum Jahresende findet in zwei Bildbereichen statt. Auf der einen Seite werden seine eigenen Kampfpunkte angezeigt und auf der anderen der Gegner mit Bild und Kampfpunkten. Bei der Gebäudeliste soll man per Rechtsklick im Kontextmenü die Gebäudeinfo ausgewählt werden. So sollen auch die Berater im Detail angezeigt werden per Kontextmenü auf Rechtsklick. Des Weiteren soll es ein Chatfenster geben in dem Spieler miteinander kommunizieren können.  
 
-
-
-
-
-
-
-
-
-
-
-
 ===================================
 === Feedback Alpers, 2016-05-17 ===
 ===================================
 
-
-
-
 Beim letzten Mal hatten Sie ein fremdes Repository (das von TheCanadians) geclont, woraufhin ich Ihnen deutlich gesagt habe, dass Sie ein eigenes Projekt umsetzen müssen. Dieses Mal haben Sie eine Beschreibung zu einem Projekt erstellt, das TheCanadians umsetzen soll. Deshalb hier nochmal der Hinweis: Sie müssen ein eigenes Projekt umsetzen. Es ist zwar sehr gut, wenn Sie dabei mit anderen Kommilitonen zusammen arbeiten, aber es muss ein eigenständiges Projekt sein. Denn damit Sie in späteren Projekten nicht Ihren Kommilitonen zur Last fallen bzw. als Softwareentwickler tätig werden zu können, müssen Sie im Stande sein, die grundlegenden Aufgabenstellungen individuell zu erfüllen. Bitte erstellen Sie deshalb eine Projektbeschreibung basierend auf dem Brettspiel Kingsburg http://www.brettspiele-report.de/kingsburg/
-
-
-
 
 Beachten Sie dabei aber bitte, dass Sie auch in diesem Fall eine Anwendung entwickeln sollen, bestimmte Anforderungen im Bereich Webbasierung und Interaktivität beinhaltet:
 
-
-
-
 Nach der Zusammenfassung sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
-
-
-
 
 Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
 
-
-
-
 Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
-
-
-
 
 Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alle ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
 
-
-
-
 Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
-
-
-
 
 ===================================
 === Feedback Alpers, 2016-06-23 ===
 ===================================
 
-
-
-
 Leider ist Ihre Beschreibung noch deutlich zu nahe am Regelwerk des Brettspiels. Eine Beschreibung sollte in den ersten Zeilen Lust darauf machen, mehr zu erfahren.
-
-
-
 
 Denken Sie bitte auch daran, dass es nicht um eine 1:1-Umsetzung des Brettspiels selbst geht. Hier denke ich beispielsweise an die Spielerzahl: Es sollte möglich sein, dass ein Spieler das Spiel alleine spielen kann (Stichwort: Computergegner), aber schauen Sie auch, welche Möglichkeiten es gibt, um das Spiel für mehr als 5 Spieler anzupassen.
 
-
-
-
 Danach sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Hier sind Sie leider auch zu nahe am Brettspiel: Bei einem Computerspiel werden keine Würfel geworfen. Die Projektbeschreibung ist also im Kern eine Inhaltsangabe. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
-
-
-
 
 Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
 
-
-
-
 Hier noch ein Absatz dazu, wofür der Begriff Interaktivität in diesem Projekt steht, weil der Begriff nicht eindeutig ist: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
-
-
-
 
 Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alles ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
 
-
-
-
 Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
-
-
-
-
-
-
-
 
 Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Pro Interaktionsmöglichkeit: 0
@@ -307,33 +182,18 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Voraussetzung bekannten Wissens: 0
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
 
-
-
-
 ===================================
 === Feedback Alpers, 2016-07-22 ===
 ===================================
 
-
-
-
 == I ==
 Zu Beginn haben Sie noch Formulierungen wie bei einem Brettspiel: "Jeder Spieler bekommt 3 Würfel." Stellen Sie bitte sicher, dass es sich hier um eine Beschreibung handelt, die nicht aus dem Brettspielbereich kommt.
-
-
-
 
 == II ==
 Hinweis bezüglich der Formatierung: Sie haben jeweils nach einer festen Anzahl Zeichen einen manuellen Zeilenumbruch verwendet. Das ist bei Teamarbeit schlecht, weil andere Teammitglieder in aller Regel das Fenster mit einer indivdiuellen Größe einstellen. Konfigurieren Sie Ihren Editor im Bedarfsfall so, dass ein Zeilumbruch zwar angezeigt, aber nicht im Dokument gespeichert wird.
 
-
-
-
 == III ==
 Arbeiten Sie bitte weiter an den Formulierungen und der Reihenfolge, in der die Beschreibung durchgeführt wird. Sie werden hier an vielen Stellen noch etwas ergänzen müssen. Im folgenden habe ich zwei der vielen Stellen herausgesucht, an denen Sie noch arbeiten müssen:
-
-
-
 
 - "Das Spiel Kingsburg ist ein Strategiespiel, mit dem Ziel das neu erworbene Territorium des Königs zu verteidigen."
 Diese Satz erfordert vom Leser einige Kenntnisse und vermittelt ggf. falsche Eindrücke:
@@ -341,27 +201,55 @@ Diese Satz erfordert vom Leser einige Kenntnisse und vermittelt ggf. falsche Ein
 2) Ist es relevant, dass es hier einen König gibt? (Nach Lesen der restlichen Beschreibung klingt es so, als wenn das gänzlich irrelevant wäre.)
 3) Der Begriff Strategiespiel vermittelt vorrangig den Eindruck, Spieler müssten (militärisch-)strategische Entscheidungen treffen. Beim Lesen der Beschreibung wirkt es dagegen so, als wenn Zufall und einfache numerische Werte darüber entscheiden, welcher Spieler gewinnt.
 
-
-
-
 - "In der ersten Phase bekommt der Spieler, mit den wenigsten Gebäuden einen zusätzlichen weißen Würfel."
 Hier gibt es zwei Probleme:
 1) Sie reden von einem weißen Würfel. Das ist eine Beschreibung aus einem Brettspiel.
 2) An dieser Stelle ist zum ersten Mal die Rede von Gebäuden. Das ist schlecht, weil so unklar ist, was es mit Gebäuden auf sich hat.
 
-
-
-
 == IV ==
 Insgesamt ist die Beschreibung bezüglich des Spielablaufs gut. Dummerweise brauchen Sie für die Entwicklung der strukturellen Elemente aber eben nicht den Spielablauf, sondern eine Beschreibung all der Elemente, aus denen das Spiel besteht. Bevor Sie an anderen Stellen des Projekts weiter arbeiten müssen Sie hier deutlich nachgebessert haben, denn im schlimmsten Fall (und damit wären wir bei einem der Kernprobleme von Einsteigern in die Arbeit mit Softwareprojekten) müssen Sie nach der angepassten Beschreibung die komplette Struktur neu entwickeln.
-
-
-
 
 == V ==
 Es fehlen auch weiter die Teile in Ihrer Beschreibung, in denen Interaktion und Webbasierung geklärt werden. Insbesondere ist es schlecht, dass Sie die Spielerzahl beschränken.
 
-
-
-
 Deshalb zurzeit keine Wertung für den strukturellen Teil des Projekts.
+
+===================================
+=== Feedback Alpers, 2016-09-05 ===
+===================================
+
+== I ==
+Leider schreiben Sie immer noch von Würfeln. Daran ändert auch die Einsetzung des Wortes virtuell nichts. Das wäre an sich kein Problem, aber Sie vergessen die Angabe, die später wichtig wird: Wie groß ist das Intervall, in dem eine Zufallszahl generiert werden soll bzw. wovon sollen die Grenzen dieses Intervalls abhängen?
+
+== II ==
+Es ist essentiell, dass die Beschreibung knapp ist. Sie dient als Ausgangspunkt für die Entwicklung der Struktur. Insbesondere ist es wichtig, dass Sie anhand der Beschreibung so schnell wie möglich mit der Ausarbeitung der Struktur beginnen können, bzw. dass Sie (oder ein anderes Teammitglied so schnell wie möglich prüfen können, ob alles umgesetzt wurde, bzw. ob ein Punkt noch erweitert werden muss.
+
+Hier ein Beispiel aus der zweiten Phase:
+
+"Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet das man auf der linken Seite der Reihe mit dem Bauen anfangen muss bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt."
+
+Das ist bei weitem zu umfangreich. Besser wäre folgendes: 
+
+"Danach können die Spieler Gebäude bauen. 
+Gebäude bestehen aus Teilen, 
+- die in einer festen Reihenfolge 
+- mit vorgegebenen Ressourcen 
+errichtet werden können."
+
+== III ==
+Leider wird beim Vergleich von Projektidee.txt und strukt.html deutlich, dass Sie beide eher unabhängig voneinander entwickelt haben. 
+
+Ich greife nochmal das gleiche Beispiel auf. Wenn wir dann in der Liste der strukturellen Elemente nachsehen, finden sich bezüglich dieses umfangreichen Absatzes lediglich die beiden folgenden strukturellen Elemente:
+
+-13-Buttons, um auf die Gebäudeliste zu kommen
+-14-Buttons, um auf die Gebäudeliste zu kommen 
+
+Wo werden die Teile der Gebäude repräsentiert?
+
+== IV ==
+
+Unter der folgenden Überschrift haben Sie fast ausschließlich strukturelle Bestandteile definiert. Die gehören aber in die strukt.html
+
+== Umsetzung/ Ablauf/Interaktion/Elemente: ==
+
+Hier kann ich nur wieder auf meine ausführlichen Erläuterungen dazu verweisen, was alles mit Interaktion in diesem Projekt gemeint ist. Wenn bei den Erläuterungen etwas unklar ist, können Sie natürlich gerne wie auch bisher bei mir im Büro vorbeischauen und wir reden dann drüber. Das ist überhaupt kein Problem.
