@@ -92,46 +92,68 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
 ======================
 == Umsetzung/ Ablauf/Interaktion/Elemente: ==
 ======================
-* Startbildschirm mit Start und Lade <button>
-* Loginmaske mit <Textfeldern> für Username und Password, sowie Button zum Registrieren
-* Registrierbildschirm mit <Textfeldern> für Username, Password, und “Repeat Passwort”
-* Benutzerdaten werden vorerst in einer einfachen .txt-Datei gespeichert
-* Spielmodusbildschirm mit <input[type="radio"]> buttons für die verschiedenen Spielmodi
-* <details> Feld für die Informationen zu den Spielmodi
-* Menü mit <input[type="number"]> für die Auswahl der Spieleranzahl. (Spiel an einem Rechner)
-* Spielfeld hat verschiedene Bedienelemente:
-   * Ein <Nav>-Menü mit <Button> bzw <a>:
-      * Spiel speichern
-      * Zum Spieleranzahlbildschirm
-      * Spielanleitung
-      * Zurück zum Hauptmenü/Startscreen
-   * Einen Bereich in dem sowohl das Jahr, als auch die Phase angezeigt werden
-   * Einen Bereich für die Punkte der Spieler
-   * Nach Start klicken alle Spieler, auf den “Dice”-<Button> um zufällige Zahlen zu generieren. Das Spiel geht erst weiter wenn alle Spieler zufällige Werte zwischen 1 und 6 generiert haben.
-   * In der <Tabelle> der Berater werden nun die entsprechenden Berater angezeigt, die in Frage kommen, mit der virtuellen Augenzahl. 
-   * Wer die kleinste Augenzahl hat darf als erster wählen
-   * Dann geht es in aufsteigender Reihenfolge weiter
-   * In der <Tabelle> der Gebäude werden die Gebäude angezeigt die verfügbar sind. Das heißt Gebäude bei denen der Vorgänger nicht gebaut wurde werden auch nicht angezeigt
-   * Reichen für ein Gebäude die Ressourcen nicht aus, kann man das entsprechende Gebäude auch nicht auswählen
-   * Am Ende des Jahres kann der Spieler für zwei Ressourcen einen Militärpunkt hinzu gewinnen:
+Startbildschirm:
+* Spieler startet das Spiel durch Klick auf das Coverbild(hinter dem ein Link liegt)
 
+Loginbildschirm:
+* Nun muss der Spieler sich einloggen 
+* Hat der Spieler keinen Account so klickt der Spieler auf den Link "Registrieren"
 
-      * Der Spieler wird gefragt ob er Ressourcen gegen Militärpunkte eintauschen will. 
-      * Entscheidet er sich dafür, kann er auf die jeweiligen Felder klicken und zwei Ressourcen auswählen. 
-      * Kampf:
-         * In einem <Container> auf der linken Seite werden die eigenen Militärpunkte angezeigt
-         * In einem <Container> auf der rechten Seite wird der Gegner angezeigt
-         * Bevor der Kampf beginnt muss Spieler 1 den "Dice"-Button betätigen um eine zufällige Zahl zwischen 1 und 6 zu generieren und bestimmt so den Militärbonus den ->jeder<- Spieler kriegt
-         * Der Kampf muss auf einem <Button> gestartet werden
-         * Bei Niederlage:
-            * Es wird eine selbst gewählte Ressource abgegeben
-            * Man verliert Punkte
-            * Es wird das stärkste Gebäude zerstört
-         * Bei Sieg:
-            * Man kriegt Punkte
-            * Es wird eine Ressource hinzugefügt
+Registrierbildschirm:
+* Spieler gibt einen Username ein
+* Nun gibt der Spieler ein Passwort ein
+* Spieler wiederholt das Passwort 
+* Spieler klickt auf den Submit button mit dem value "Register"
+* Die Anmeldeinformationen werden erstmal provisorisch in einer Textdatei gespeichert
+* man kann sich nun anmelden
 
-* Es soll außerdem ein <textarea> Feld geben um mit den anderen Spielern kommunizieren zu können (also ein chat-fenster)
+Spielmodusbildschirm:
+* Der Spieler sucht sich einen Spielmodus aus
+* Es gibt drei verschiedene Radiobuttons zur Auswahl
+  - Local: Mehrspielerspiel an einem Rechner
+  - LAN: Spiel an mehreren Rechnern in einem Netz
+  - Singleplayer: Einzelspieler an einem Rechner
+* Der Spieler kann auf den Detailsbutton klicken um Infos zu kriegen(Der Button ist browserabhängig. Ansonsten sind Infos so sichtbar)
+* Spieler wählt Modus und klickt auf Submit
+
+Spieleranzahlbildschirm(nur für "local"):
+* Spieler wählt eine Spieleranzahl zwischen 1 und 5
+* Spieler klickt auf Submit button 
+
+Spielbrettbildschirm:
+* Das Spiel beginnt in Phase 1:
+  - Alle Spieler lassen sich drei zufällige Zahlen generieren
+  - Diese Zahlen werden zusammenaddiert und der Spieler mit der höchsten Zahl darf als erstes
+  
+* Phase 2:
+  - Der Reihe nach klicken die Spieler nun auf die Beraterfelder
+  - Mit Klick auf den Infolink kriegt man eine Übersicht der Berater
+  - Spieler können nun ein Gebäude bauen
+  - Dazu klickt man in der Gebäudetabelle auf das entsprechende Gebäude
+  - Mit klick auf den Infolink öffnet sich eine Gebäudeübersicht
+  - 
+  
+* Phase 3:
+  - Spieler mit den meisten Gebäuden kriegt automatisch einen Bonuspunkt hinzu
+  - Herrscht Gleichstand passiert nichts
+  
+* Phase 4
+  - Phase 2 wiederholt sich
+
+* Phase 5
+  - Der Spieler mit den wenigsten Gebäuden(bei Gleichstand mit den wenigsten Ressourcen) kriegt automatisch einen Gesandten in Form eines Buttons neben seinem Username
+  - Kann nur in einer Produktionsphase verwendet werden
+
+* Phase 6 
+  - Phase 2 wird wiederholt
+  
+* Phase 7
+  - Spieler kommen nun auf Seite und werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
+  - klicken die Spieler auf "Yes" werden ihnen automatisch Ressourcen abgezogen und Punkte hinzugefügt
+
+* Phase 8
+  - Spieler kommen auf Seite und es spawnt automatisch ein Gegner
+  - Klickt man auf den Kampfbutton wird der Kampfgestartet und der Ausgang des Kampfes automatisch evaluiert 
 
 Es soll einen Startbildschirm geben, der als Startbutton das Cover des Spiels hat, auf das der User drücken muss um das Spiel zu starten.
 Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Zuerst muss man sich jedoch registrieren, falls es noch keinen Account gibt. Als nächstes soll der Spielmodus ausgewählt werden. Hier kann der Spieler entscheiden zwischen "Lokal", "LAN" und "Singleplayer". "Lokal" heißt man spielt an einem Rechner. Hier wird die Spieleranzahl reduziert auf 2 - 5 Spieler. Wählt man "LAN" spielt man in einem lokalen Netzwerk über mehrere Rechner. "Singleplayer" ist der Einzelspieler-Arcademodus. 
