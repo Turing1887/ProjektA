@@ -20,11 +20,11 @@ In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zus�
 ======================
 Phase 2(Produktionsphase):
 ======================
-In der Produktionsphase wird “gewürfelt”.
+In der Produktionsphase werden zufällige Werte zwischen 1 und 6 generiert.
 
-Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die Augenzahl eines virtuellen Würfels zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der gewürfelten Zahlen entspricht. Die in Frage kommenden Berater werden je nach Augenzahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten Augenzahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei virtuellen Würfel auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. 
+Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die zufällig generierten Werte zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der zufällig generierten Zahlen entspricht. Die in Frage kommenden Berater werden je nach zufällig generierter Zahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten zufällig generierten Zahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei zufällig generierten Zahlen auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. 
 
-Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet das man auf der linken Seite der Reihe mit dem Bauen anfangen muss bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
+Jeder Spieler kann nun mit Ressourcen ein Gebäude bauen, welche in einer festen Reihenfolge vorliegen. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
 
 ======================
 Phase 3:
@@ -44,7 +44,7 @@ Herrscht Gleichstand sowohl bei Gebäuden als auch bei Ressourcen kriegt keiner 
 
 Dieser Gesandte kann während jeder Produktionsphase für eine von zwei Aktionen verwendet werden:
 
-a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal belegt werden. Es müssen jedoch trotzdem die virtuellen Würfel benutzt werden
+a) Ein Berater, der schon belegt wurde von einem selbst oder einem anderen Spieler kann ein weiteres Mal belegt werden. Es müssen jedoch trotzdem die zufällig generierten Zahlen zwischen 1 und 6 benutzt werden
 
 b) Während der Konstruktionsphase der Gebäude, dürfen zwei Gebäude gebaut werden. Es müssen jedoch für beide Gebäude die Ressourcen bezahlt werden
 
@@ -65,7 +65,7 @@ In dieser Phase haben Spieler die Möglichkeit, zwei beliebige Ressourcen gegen 
 ======================
 Am Ende des Jahres spawnt ein zufälliger Gegner gegen den gekämpft wird.
 Nun kommt es auf die Militärpunkte an.
-Zunächst wird ein virtueller Würfel gewürfelt, der bestimmt, wieviele Militärpunkte der König jedem Spieler zusätzlich gibt.
+Zunächst wird eine zufällige Zahl zwischen 1 und 6 generiert, die bestimmt, wieviele Militärpunkte der König jedem Spieler zusätzlich gibt.
 Nun wird geguckt wie stark der Gegner ist, was variieren kann. In Jahr 1 haben die Gegner 2 - 4 Stärkepunkte und von Jahr zu Jahr werden die Gegner stärker.
 Hat man also mehr Militärpunkte als der Gegner, so kriegt man einen Bonus bzw. einen Malus wenn man weniger Punkte hat als der Gegner.
 Dieser Malus kann entweder der Verlust von Punkten sein, der Verlust von Ressourcen, oder man muss sein stärkstes Gebäuden zerstören.
@@ -107,7 +107,7 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
       * Zurück zum Hauptmenü/Startscreen
    * Einen Bereich in dem sowohl das Jahr, als auch die Phase angezeigt werden
    * Einen Bereich für die Punkte der Spieler
-   * Nach Start klicken alle Spieler, auf den “Dice”-<Button> um zufällige Zahlen zu erhalten. Das Spiel geht erst weiter wenn alle Spieler gewürfelt haben.
+   * Nach Start klicken alle Spieler, auf den “Dice”-<Button> um zufällige Zahlen zu generieren. Das Spiel geht erst weiter wenn alle Spieler zufällige Werte zwischen 1 und 6 generiert haben.
    * In der <Tabelle> der Berater werden nun die entsprechenden Berater angezeigt, die in Frage kommen, mit der virtuellen Augenzahl. 
    * Wer die kleinste Augenzahl hat darf als erster wählen
    * Dann geht es in aufsteigender Reihenfolge weiter
@@ -121,7 +121,7 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
       * Kampf:
          * In einem <Container> auf der linken Seite werden die eigenen Militärpunkte angezeigt
          * In einem <Container> auf der rechten Seite wird der Gegner angezeigt
-         * Bevor der Kampf beginnt muss Spieler 1 den virtuellen Würfel betätigen und bestimmt so den Militärbonus den ->jeder<- Spieler kriegt
+         * Bevor der Kampf beginnt muss Spieler 1 den "Dice"-Button betätigen um eine zufällige Zahl zwischen 1 und 6 zu generieren und bestimmt so den Militärbonus den ->jeder<- Spieler kriegt
          * Der Kampf muss auf einem <Button> gestartet werden
          * Bei Niederlage:
             * Es wird eine selbst gewählte Ressource abgegeben
