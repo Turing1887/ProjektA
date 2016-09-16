@@ -1,36 +1,36 @@
 <!--
 
 =======Liste der Elemente=======
-	-01-Image als Button
+	-01-Image mit Cover des Spiels
 	-02-Inputfeld Username
 	-03-Inputfeld Passwort
-	-04-submit button
+	-04-Submit button fuer das Anmelden
 	-05-Inputfeld für die Spieleranzahl
-	-06-Submit button
+	-06-Submit button / Wird nicht mehr verwendet
 	-07-Textfeld Anzeigenamen im Spiel
 	-08-Button zurück zum Startbildschirm
 	-09-5x4 Tabelle für die Berater
-	-10-3x6 Tabelle für die Ressource und Punkte der Spieler
+	-10-3x6 Tabelle für die Ressource und Punkte der Spieler / nur sichtbar im Localmodus -> Ansonsten nur eine Tabelle fuer den Spieler selbst
 	-11-1x8 Tabelle für die Phasen
-	-12-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen
-	-13-Buttons, um auf die Gebäudeliste zu kommen
-	-14-Buttons, um auf die Gebäudeliste zu kommen
-	-15-Zurücksetzen Button
-	-16-Anzeigebereich für die Kampfkraft des Spielers
-	-17-Anzeigebereich für den Gegner
-	-18-Button um den Kampf zu starten in der entsprechenden Phase (Random Monster spawn)
+	-12-Submit button zum Generieren von 3 Zufallszahlen 
+	-13-5x4 Tabelle fuer die Gebaeude
+	-14-Buttons mit Link um auf die Gebäudeliste zu kommen / Redundant -> Wird nicht mehr verwendet
+	-15-Zurücksetzen Button / Wird nicht mehr verwendet
+	-16-Text fuer die Kampfkraft des Spielers
+	-17-Text fuer den Gegner
+	-18-Button um den Kampf zu starten in der entsprechenden Phase (Random Monster spawn) / Wird nicht mehr verwendet
 	-19-Lade Button
-	-20-Passwort label
-	-21-Username label
+	-20-Label Passwort
+	-21-Label Username
 	-22-Inputfeld Email
-	-23-Email Label
+	-23-Label Email
 	-24-Button save
-	-25-Button Spielregeln
-	-26-Button Quit
-	-27-Anzeige für die Phase und das Jahr
+	-25-Button mit Link zu den Spielregeln
+	-26-Button Quit / Redundant -> Wird nicht mehr verwendet
+	-27-Text fuer das aktuelle Jahr
 	-28-Radiobuttongroup für die Spielmodi
 	-29-Textfeld Ueberschrift Startseite
-	-30-Button um zur Register Seite zu kommen
+	-30-Button mit Link um zur Register Seite zu kommen
 	-31-Detailsliste für die Spielmodi
 	-31-Textfeld für das Chatfenster
 	-32-Textfeld für das Eingeben der Chatnachrichten
@@ -46,19 +46,29 @@
 	-42-Submit button Spieleranzahl
 	-43-Submit button fuer das Chatfenster
 	-44-Submit button fuer die Spielmodi
+	-45-Link zur Infoseite fuer die Berater
+	-46-Link zur Infoseite fuer die Gebaeude
+	-47-Text mit der Frage Ressourcen gegen Militärpunkte
+	-48-Submit button "Yes"
+	-48-Submit button "No"
+	-49-Button zum Ausloggen
+	-50-Link zum Impressum
+	-51-Link zur Originalwebsite
+	-52-Link zu den Spielregeln
+	-53-Button um neues Spiel zu starten /Link zum Loginfeld
+	-54-Text fuer die zufaellig generierten Zahlenfolgen von 1 bis 6
+	-55-Text "You win/lose" 
 	
 =======Gruppen=======
-	-I.Startbildschirm
-		-01-Image als Button
+	-I.Gamestart
+		-53-Button um neues Spiel zu starten /Link zum Loginfeld
 		-19-Lade Button
-		-29-Textfeld Ueberschrift Startseite
 		
-
 	-II.Log-In Maske
 		-02-Inputfeld Username
 		-03-Inputfeld Passwort
-		-04-submit button
-		-30-Button um zur Register Seite zu kommen
+		-04-Submit button fuer das Anmelden
+		-30-Button mit Link um zur Register Seite zu kommen
 		-33-<legend> fuer die loginmaske
 		-34-<details> fuer die anmeldeinfo
 
@@ -66,34 +76,29 @@
 		-42-submit button Spieleranzahl
 		-41-Inputfeld (type="number") fuer Spieleranzahl
 
-	-IV.Spielfeld:
-		-27-Anzeige für die Phase und das Jahr
-		-09-5x4 Tabelle für die Berater
-		-10-3x6 Tabelle für die Ressource und Punkte der Spieler
+	-IV.Gameinfo:
+		-27-Text fuer das aktuelle Jahr
 		-11-1x8 Tabelle für die Phasen
-		-12-Pro Spieler einen Button zum Würfeln von 3 Zufallszahlen
-		-13-Buttons, um auf die Gebäudeliste zu kommen
-		-16-Anzeigebereich für die Kampfkraft des Gegners
-		-17-Anzeigebereich für den Gegner
-		-18-Button um den Kampf zu starten
-
+		-10-3x6 Tabelle für die Ressource und Punkte der Spieler / if(Spielmodus != local) -> nur eine Tabelle
+		
 	-V.Registrieren:
-		-20-Passwort label
-		-20-Passwort Label(repeat)
-		-21-Username Label
-		-35-submit button zum Registrieren
-		-22-Inputfeld email
-		-23-Email Label
-		-36-<legend> fuer den Registrierbildschirm
+		-20-Label Passwort
+		-20-Label Passwort(repeat)
+		-21-Label Username
 		-37-Inputfeld Username fuer den Registrierbildschirm
 		-38-Inputfeld Passwort fuer Registrierbildschirm
 		-39-Zweites Inputfeld Passwort fuer Registrierbildschirm
+		-35-Submit button zum Registrieren
+		-22-Inputfeld email
+		-23-Label Email
+		-36-<legend> fuer den Registrierbildschirm
+		
 
-	-VI.Menü
+	-VI.In-game Menu
 		-08-Button zurück zum Startbildschirm
 		-24-Button save
-		-25-Button Spielregeln
-		-26-Button quit
+		-25-Button mit Link zu den Spielregeln
+		
 
 	-VII.Spielmodi
 		-28-Radiobuttongroup für die Spielmodi
@@ -105,28 +110,64 @@
 		-32-Textfeld für das Eingeben der Chatnachrichten
 		-43-Submit button fuer das Chatfenster
 
+	-IX.Menu	
+		-49-Button zum Ausloggen
+		-50-Link zum Impressum
+		-51-Link zur Originalwebsite
+		-52-Link zu den Spielregeln
+		
+	-X.Spielcover	
+		-01-Image mit Cover des Spiels
+		-29-Textfeld Ueberschrift Startseite
+		
+	-XI.Produktionsphase	
+		-09-5x4 Tabelle für die Berater
+		-13-5x4 Tabelle fuer die Gebaeude
+		-13-Button mit Link um auf die Gebäudeliste zu kommen
+		-45-Link zur Infoseite fuer die Berater
+		-46-Link zur Infoseite fuer die Gebaeude
+		
+	-XII.Zufallszahlen
+		-54-Text fuer die zufaellig generierten Zahlenfolgen von 1 bis 6
+		-12-Submit button zum Generieren von 3 Zufallszahlen 
+	
+	-XIII.Kampf
+		-16-Text für die Kampfkraft des Gegners
+		-17-Text für den Gegner
+		-55-Text "You win/lose" 
+		
+		
 =======Views=======
 
 	==view_gameboard==
-			IV. Spielfeld
-			VI. Menü
-			VIII. Chatfenster
+			IV.Spielfeld
+			VI.In-game Menu
+			VIII.Chatfenster
+			IX.Menu
 
 	==view_startbildschirm==
-			I.Startbildschirm
+			I.Gamestart
+			IX.Menu
+			X.Spielcover
 
 	==view_spieleranzahl==
-			III. Spieleranzahl
+			III.Spieleranzahl
+			IX.Menu
 
 	==view_loginscreen==
 			II.Log-In-maske
+			IX.Menu / Ohne Logout Moeglichkeit
 
 	==view_register==
 			V.Registrieren
+			IX.Menu / Ohne Logout Moeglichkeit
 
 	==view_spielmodi==
 			VII.Spielmodi
+			IX.Menu
 -->
+
+
 
 <!--
 ===================================
@@ -256,4 +297,25 @@ Wertung 5: Ansichten: 1 / 5
 Leider haben Sie hier meine Hinweise weitgehend nicht umgesetzt. So haben Sie keine Gruppe programmiert, die Ansichten im falschen Verzeichnis und unter falschem Namen gespeichert.
 
 Bitte überarbeiten Sie jetzt zuerste die Beschreibung, passen Sie dann die strukturellen Elemente, dann die Gruppendefinitionen und dann die Ansichten. Achten Sie anschließend darauf, was ich genau bezüglich der Programmierung von Gruppen und Ansichten geschrieben habe und kommen Sie bei Fragen und Unklarheiten bitte vorbei und sprechen Sie mich an, denn der Nachbearbeitungsbedarf ist bereits jetzt recht hoch.
+-->
+
+<!-- 
+=====================================
+===Hinweis zum Feedback Turing1887===
+=====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -->
