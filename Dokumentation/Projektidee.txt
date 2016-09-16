@@ -92,11 +92,10 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
 ======================
 == Umsetzung/ Ablauf/Interaktion/Elemente: ==
 ======================
-Startbildschirm:
-* Spieler startet das Spiel durch Klick auf das Coverbild(hinter dem ein Link liegt)
+
 
 Loginbildschirm:
-* Nun muss der Spieler sich einloggen 
+* Der Spieler muss sich einloggen
 * Hat der Spieler keinen Account so klickt der Spieler auf den Link "Registrieren"
 
 Registrierbildschirm:
@@ -107,13 +106,18 @@ Registrierbildschirm:
 * Die Anmeldeinformationen werden erstmal provisorisch in einer Textdatei gespeichert
 * man kann sich nun anmelden
 
+Startbildschirm:
+* Spieler startet das Spiel durch Klick auf:
+	* Den Button "New game"
+	* Den Button "Load game"
+
 Spielmodusbildschirm:
 * Der Spieler sucht sich einen Spielmodus aus
 * Es gibt drei verschiedene Radiobuttons zur Auswahl
   - Local: Mehrspielerspiel an einem Rechner
   - LAN: Spiel an mehreren Rechnern in einem Netz
   - Singleplayer: Einzelspieler an einem Rechner
-* Der Spieler kann auf den Detailsbutton klicken um Infos zu kriegen(Der Button ist browserabhängig. Ansonsten sind Infos so sichtbar)
+* Der Spieler kann auf den Detailsbutton klicken um Infos zu kriegen(Der Button ist browserabhängig. Ansonsten sind Infos so sichtbar, da <Details> nur in Opera/Chrome/Safari supported ist)
 * Spieler wählt Modus und klickt auf Submit
 
 Spieleranzahlbildschirm(nur für "local"):
@@ -123,7 +127,7 @@ Spieleranzahlbildschirm(nur für "local"):
 Spielbrettbildschirm:
 * Das Spiel beginnt in Phase 1:
   - Alle Spieler lassen sich drei zufällige Zahlen generieren
-  - Diese Zahlen werden zusammenaddiert und der Spieler mit der höchsten Zahl darf als erstes
+  - Diese Zahlen werden zusammenaddiert und der Spieler mit der höchsten Zahl darf als Erstes
   
 * Phase 2:
   - Der Reihe nach klicken die Spieler nun auf die Beraterfelder
@@ -148,17 +152,13 @@ Spielbrettbildschirm:
   - Phase 2 wird wiederholt
   
 * Phase 7
-  - Spieler kommen nun auf Seite und werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
+  - Spieler kommen nun auf eine Seite und werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
   - klicken die Spieler auf "Yes" werden ihnen automatisch Ressourcen abgezogen und Punkte hinzugefügt
 
 * Phase 8
   - Spieler kommen auf Seite und es spawnt automatisch ein Gegner
   - Klickt man auf den Kampfbutton wird der Kampfgestartet und der Ausgang des Kampfes automatisch evaluiert 
 
-Es soll einen Startbildschirm geben, der als Startbutton das Cover des Spiels hat, auf das der User drücken muss um das Spiel zu starten.
-Danach soll man zu einem Loginfenster kommen, in dem sich der User einloggen kann. Zuerst muss man sich jedoch registrieren, falls es noch keinen Account gibt. Als nächstes soll der Spielmodus ausgewählt werden. Hier kann der Spieler entscheiden zwischen "Lokal", "LAN" und "Singleplayer". "Lokal" heißt man spielt an einem Rechner. Hier wird die Spieleranzahl reduziert auf 2 - 5 Spieler. Wählt man "LAN" spielt man in einem lokalen Netzwerk über mehrere Rechner. "Singleplayer" ist der Einzelspieler-Arcademodus. 
-Es soll ein Menü geben (<nav>) mit den Möglichkeiten zum Spielerauswahlmenü zurück zu kehren, zum Startbildschirm zurück zu kehren(beenden), die Spielregeln abzurufen und den Spielstand zu speichern.
-Das Spielfeld besteht aus einer Tabelle für die Berater, einer Tabelle für die Ressourcen und einer Tabelle für die Gebäude. Außerdem gibt es Punktestände für die Spieler. Die Zahlen für die Berater werden durch einen Button ausgegeben. Der Kampf zum Jahresende findet in zwei Bildbereichen statt. Auf der einen Seite werden seine eigenen Kampfpunkte angezeigt und auf der anderen der Gegner mit Bild und Kampfpunkten. Bei der Gebäudeliste soll man per Rechtsklick im Kontextmenü die Gebäudeinfo ausgewählt werden. So sollen auch die Berater im Detail angezeigt werden per Kontextmenü auf Rechtsklick. Des Weiteren soll es ein Chatfenster geben in dem Spieler miteinander kommunizieren können.  
 
 ===================================
 === Feedback Alpers, 2016-05-17 ===
