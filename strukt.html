@@ -51,16 +51,18 @@
 	-47-Text mit der Frage Ressourcen gegen Militärpunkte
 	-48-Submit button "Yes"
 	-48-Submit button "No"
-	-49-Button zum Ausloggen
+	-49-Submit button zum Ausloggen
 	-50-Link zum Impressum
 	-51-Link zur Originalwebsite
 	-52-Link zu den Spielregeln
 	-53-Button um neues Spiel zu starten /Link zum Loginfeld
 	-54-Text fuer die zufaellig generierten Zahlenfolgen von 1 bis 6
 	-55-Text "You win/lose" 
+	-56-Text Impressum
 	
 =======Gruppen=======
-	-I.Gamestart
+
+	-I.Gamecover
 		-53-Button um neues Spiel zu starten /Link zum Loginfeld
 		-19-Lade Button
 		
@@ -81,7 +83,7 @@
 	-IV.Gameinfo:
 		-27-Text fuer das aktuelle Jahr
 		-11-1x8 Tabelle für die Phasen
-		-10-3x6 Tabelle für die Ressource und Punkte der Spieler / if(Spielmodus != local) -> nur eine Tabelle
+		-10-3x6 Tabelle für die Ressource und Punkte der Spieler / if(Spielmodus != Local) -> nur eine Tabelle
 		
 	-V.Registrieren:
 		-20-Label Passwort(repeat)
@@ -89,13 +91,11 @@
 		-22-Inputfeld email
 		-23-Label Email
 		
-
 	-VI.In-game Menu
 		-08-Button zurück zum Startbildschirm
 		-24-Button save
 		-25-Button mit Link zu den Spielregeln
 		
-
 	-VII.Spielmodi
 		-28-Radiobuttongroup für die Spielmodi
 		-44-Submit button fuer die Spielmodi
@@ -107,7 +107,7 @@
 		-43-Submit button fuer das Chatfenster
 
 	-IX.NavMenu	
-		-49-Button zum Ausloggen
+		-49-Submit button zum Ausloggen
 		-50-Link zum Impressum
 		-51-Link zur Originalwebsite
 		-52-Link zu den Spielregeln
@@ -132,17 +132,21 @@
 		-17-Text für den Gegner
 		-55-Text "You win/lose" 
 		
+	-XIV.ImpressumContent
+		-56-Text Impressum
+		-57-Link zur Originalwebsite
 		
 =======Views=======
 
 	==view_gameboard==
-			IV.Spielfeld
+			IV.Gameinfo
 			VI.In-game Menu
 			VIII.Chatfenster
 			IX.NavMenu
+			XI.Produktionsphase
 
 	==view_startbildschirm==
-			I.Gamestart
+			I.Gamecover
 			IX.NavMenu
 			X.Spielcover
 
@@ -162,6 +166,13 @@
 	==view_spielmodi==
 			VII.Spielmodi
 			IX.NavMenu
+	
+	==view_impressum==
+			IX.NavMenu
+			XIV.ImpressumContent
+			
+	==view_		
+			
 -->
 
 
