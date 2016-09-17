@@ -10,10 +10,7 @@
     <form action="../Formulare/form_eval_register.php" method="post">
       <fieldset>
         <legend>Register</legend>
-        <label for="username">Username: </label><br>
-        <input type="text" name="username" required><br>
-        <label for="password">Password: </label><br>
-        <input type="password" name="password" required><br>
+        <?php include '../Gruppen_de/loginmask.php'; ?>
         <label for="password-repeat">Repeat Password: </label><br>
         <input type="password" name="password-repeat" required><br>
         <hr>
