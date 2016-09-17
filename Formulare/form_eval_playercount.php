@@ -1,6 +1,6 @@
 <?php
 
-header("Location: ../Gruppen_de/php_code.php");
+header("Location: ../Views/php_code.php");
 
 
 ?>

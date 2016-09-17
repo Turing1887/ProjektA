@@ -17,7 +17,7 @@
     }
 	}
 	if($success == true){
-		header("Location: ../Gruppen_de/view_spielmodi.html");
+		header("Location: ../Views/view_startbildschirm.php");
 	}
 	else{
 		echo "err";

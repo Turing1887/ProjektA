@@ -16,7 +16,7 @@ $cookie_name = $new_user;
     //fwrite($userfile,$password . "\n");
     fclose($userfile);
 
-    header('Location: ../Gruppen_de/view_loginscreen.html');
+    header('Location: ../Views/view_loginscreen.php');
   }
 
 

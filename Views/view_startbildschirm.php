@@ -9,7 +9,7 @@
     </head>
     <body>
       <h1>Click on the Game to start</h1>
-      <a href="view_loginscreen.html"><img src="kingsburg.jpg" alt="Kingsburg" style="height: 600px;width: 800px;"></a><br> <!--Cover des Spiels als Startbutton -->
+      <a href="view_spielmodi.php"><img src="kingsburg.jpg" alt="Kingsburg" style="height: 600px;width: 800px;"></a><br> <!--Cover des Spiels als Startbutton -->
       <input id="loadButton" type="button" value="Load Game"><!--Laden des Spielstands-->
     </body>
 </html>
