@@ -125,6 +125,11 @@ Spieleranzahlbildschirm(nur für "local"):
 * Spieler wählt eine Spieleranzahl zwischen 1 und 5
 * Spieler klickt auf Submit button
 
+Lobbybildschirm(nur fuer "online"):
+* Spieler klickt entweder auf "Host" oder "Join"
+	-Host: Spieler kann ein Spiel erstellen dem andere Spieler beitreten
+	-Join: Spieler kann nach Spielen die andere Spieler erstellt haben suchen
+
 Spielbrettbildschirm:
 * Das Spiel beginnt in Phase 1:
   - Alle Spieler lassen sich drei zufällige Zahlen generieren
@@ -136,7 +141,7 @@ Spielbrettbildschirm:
   - Spieler können nun ein Gebäude bauen
   - Dazu klickt man in der Gebäudetabelle auf das entsprechende Gebäude
   - Mit klick auf den Infolink öffnet sich eine Gebäudeübersicht
-  
+
 
 * Phase 3:
   - Spieler mit den meisten Gebäuden kriegt automatisch einen Bonuspunkt hinzu
