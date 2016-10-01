@@ -15,16 +15,16 @@ Das Spiel beginnt in Phase 1 des ersten Jahres.
 Jeder Spieler darf sich drei zufällige Zahlen ausgeben lassen.
 
 =>Relevant ab Jahr 2:<=
-In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zusätzliche Zahl ausgeben lassen. 
+In der ersten Phase kann sich der Spieler, mit den wenigsten Gebäuden eine zusätzliche Zahl ausgeben lassen.
 
 ======================
 Phase 2(Produktionsphase):
 ======================
 In der Produktionsphase werden zufällige Werte zwischen 1 und 6 generiert.
 
-Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die zufällig generierten Werte zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der zufällig generierten Zahlen entspricht. Die in Frage kommenden Berater werden je nach zufällig generierter Zahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten zufällig generierten Zahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei zufällig generierten Zahlen auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt. 
+Auf dem Spielfeld gibt es 18 königliche Berater, die einem Vorteile bringen. Die Berater geben entweder Punkte, einen Rohstoff (Gold,Holz,Stein) der zum Bauen von Gebäuden notwendig ist, militärische Stärke oder einen "+2 Token", welcher eingesetzt werden kann um die zufällig generierten Werte zu erhöhen. Jeder Spieler kann nun einen Berater für sich beanspruchen, der einer der zufällig generierten Zahlen entspricht. Die in Frage kommenden Berater werden je nach zufällig generierter Zahl angezeigt und man muss sich entscheiden. Der Spieler mit der geringsten zufällig generierten Zahl darf als erstes einen Berater wählen. Ein Berater kann nur einmal belegt werden. Am Ende müssen entweder alle drei zufällig generierten Zahlen auf die Berater verteilt sein, oder es sind schon alle möglichen Berater belegt.
 
-Jeder Spieler kann nun mit Ressourcen ein Gebäude bauen, welche in einer festen Reihenfolge vorliegen. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt. 
+Jeder Spieler kann nun mit Ressourcen ein Gebäude bauen, welche in einer festen Reihenfolge vorliegen. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt.
 
 ======================
 Phase 3:
@@ -101,7 +101,7 @@ Loginbildschirm:
 Registrierbildschirm:
 * Spieler gibt einen Username ein
 * Nun gibt der Spieler ein Passwort ein
-* Spieler wiederholt das Passwort 
+* Spieler wiederholt das Passwort
 * Spieler klickt auf den Submit button mit dem value "Register"
 * Die Anmeldeinformationen werden erstmal provisorisch in einer Textdatei gespeichert
 * man kann sich nun anmelden
@@ -117,30 +117,31 @@ Spielmodusbildschirm:
   - Local: Mehrspielerspiel an einem Rechner
   - LAN: Spiel an mehreren Rechnern in einem Netz
   - Singleplayer: Einzelspieler an einem Rechner
+	-	Online: Kann Spiel hosten bzw beitreten
 * Der Spieler kann auf den Detailsbutton klicken um Infos zu kriegen(Der Button ist browserabhängig. Ansonsten sind Infos so sichtbar, da <Details> nur in Opera/Chrome/Safari supported ist)
 * Spieler wählt Modus und klickt auf Submit
 
 Spieleranzahlbildschirm(nur für "local"):
 * Spieler wählt eine Spieleranzahl zwischen 1 und 5
-* Spieler klickt auf Submit button 
+* Spieler klickt auf Submit button
 
 Spielbrettbildschirm:
 * Das Spiel beginnt in Phase 1:
   - Alle Spieler lassen sich drei zufällige Zahlen generieren
   - Diese Zahlen werden zusammenaddiert und der Spieler mit der höchsten Zahl darf als Erstes
-  
+
 * Phase 2:
   - Der Reihe nach klicken die Spieler nun auf die Beraterfelder
   - Mit Klick auf den Infolink kriegt man eine Übersicht der Berater
   - Spieler können nun ein Gebäude bauen
   - Dazu klickt man in der Gebäudetabelle auf das entsprechende Gebäude
   - Mit klick auf den Infolink öffnet sich eine Gebäudeübersicht
-  - 
   
+
 * Phase 3:
   - Spieler mit den meisten Gebäuden kriegt automatisch einen Bonuspunkt hinzu
   - Herrscht Gleichstand passiert nichts
-  
+
 * Phase 4
   - Phase 2 wiederholt sich
 
@@ -148,16 +149,16 @@ Spielbrettbildschirm:
   - Der Spieler mit den wenigsten Gebäuden(bei Gleichstand mit den wenigsten Ressourcen) kriegt automatisch einen Gesandten in Form eines Buttons neben seinem Username
   - Kann nur in einer Produktionsphase verwendet werden
 
-* Phase 6 
+* Phase 6
   - Phase 2 wird wiederholt
-  
+
 * Phase 7
   - Spieler kommen nun auf eine Seite und werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
   - klicken die Spieler auf "Yes" werden ihnen automatisch Ressourcen abgezogen und Punkte hinzugefügt
 
 * Phase 8
   - Spieler kommen auf Seite und es spawnt automatisch ein Gegner
-  - Klickt man auf den Kampfbutton wird der Kampfgestartet und der Ausgang des Kampfes automatisch evaluiert 
+  - Klickt man auf den Kampfbutton wird der Kampfgestartet und der Ausgang des Kampfes automatisch evaluiert
 
 
 ===================================
@@ -250,21 +251,21 @@ Hier ein Beispiel aus der zweiten Phase:
 
 "Nun können die Spieler ein Gebäude bauen. Jeder Spieler hat die Wahl zwischen 20 verschiedenen Gebäuden. Die Gebäude sind nicht Spielerabhängig. Jedes Gebäude bringt Punkte und einen einzigartigen Bonus. Zum Bauen eines Gebäudes benötigt man Ressourcen. Die Gebäudeauswahl ist hierarchisch aufgebaut, was bedeutet das man auf der linken Seite der Reihe mit dem Bauen anfangen muss bevor man die Gebäude bauen kann die weiter rechts sind. Es ist erlaubt, jederzeit eine neue Reihe anzufangen. Die verfügbaren Gebäude werden einem angezeigt. Ist ein Gebäude nicht verfügbar weil man das vorherige Gebäude nicht gebaut hat, so wird es einem auch nicht angezeigt."
 
-Das ist bei weitem zu umfangreich. Besser wäre folgendes: 
+Das ist bei weitem zu umfangreich. Besser wäre folgendes:
 
-"Danach können die Spieler Gebäude bauen. 
-Gebäude bestehen aus Teilen, 
-- die in einer festen Reihenfolge 
-- mit vorgegebenen Ressourcen 
+"Danach können die Spieler Gebäude bauen.
+Gebäude bestehen aus Teilen,
+- die in einer festen Reihenfolge
+- mit vorgegebenen Ressourcen
 errichtet werden können."
 
 == III ==
-Leider wird beim Vergleich von Projektidee.txt und strukt.html deutlich, dass Sie beide eher unabhängig voneinander entwickelt haben. 
+Leider wird beim Vergleich von Projektidee.txt und strukt.html deutlich, dass Sie beide eher unabhängig voneinander entwickelt haben.
 
 Ich greife nochmal das gleiche Beispiel auf. Wenn wir dann in der Liste der strukturellen Elemente nachsehen, finden sich bezüglich dieses umfangreichen Absatzes lediglich die beiden folgenden strukturellen Elemente:
 
 -13-Buttons, um auf die Gebäudeliste zu kommen
--14-Buttons, um auf die Gebäudeliste zu kommen 
+-14-Buttons, um auf die Gebäudeliste zu kommen
 
 Wo werden die Teile der Gebäude repräsentiert?
 
