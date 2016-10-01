@@ -10,11 +10,7 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     <body>
-        <nav>
-            <a href="view_spieleranzahl.html"><button id="playerMenuButton">Menu</button></a>
-            <a href=""><button id="saveButton">Save</button></a>
-            <a href="view_startbildschirm.html"><button id="quitButton">Quit</button></a>
-        </nav>
+        <?php include("../Gruppen_de/ingame_menu.php"); ?>
         <hr>
 
 		  <section>
@@ -118,37 +114,7 @@
                     </td>
                 </tr>
              </table><br>
-            <h4>"username2" Inventory</h4>
-             <table style="width:30%;" border="1">
-                <tr>
-                    <td>
-                    Gold
-                    </td>
-                     <td>
-                    Wood
-                    </td>
-                     <td>
-                    Stone
-                    </td>
-                     <td>
-                    Military
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                     0
-                    </td>
-                     <td>
-                     0
-                    </td>
-                     <td>
-                     0
-                    </td>
-                     <td>
-                     0
-                    </td>
-                </tr>
-            </table><br>
+          
             </section>
             <hr>
 
@@ -278,7 +244,8 @@
             <input type="submit" name="msg-send" value="Send">
         </form>
     </section>
-
+    <hr>
+    <?php include("../Gruppen_de/footer.php"); ?>
 
     </body>
 </html>
