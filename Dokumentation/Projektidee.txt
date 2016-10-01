@@ -158,7 +158,7 @@ Spielbrettbildschirm:
   - Phase 2 wird wiederholt
 
 * Phase 7
-  - Spieler kommen nun auf eine Seite und werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
+  - Spieler werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
   - klicken die Spieler auf "Yes" werden ihnen automatisch Ressourcen abgezogen und Punkte hinzugefügt
 
 * Phase 8
