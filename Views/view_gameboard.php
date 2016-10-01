@@ -114,7 +114,7 @@
                     </td>
                 </tr>
              </table><br>
-          
+
             </section>
             <hr>
 
@@ -225,6 +225,7 @@
 				<td>5</td>
 			</tr>
 		</table>
+    <a href="view_gebaeudeliste.php" target="_blank">Liste der Gebäude</a>
 		</section>
     <hr>
 
