@@ -4,7 +4,7 @@ session_start();
 $msg_array = file("chat-log.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 $_SESSION['messages'] = $msg_array;
 
-include ('view_gameboard.html');
+include ('view_gameboard.php');
 
 
 function roll_the_dice(){
@@ -24,7 +24,7 @@ function validateMessage(){
     $chatlog = fopen("chat-log.txt", "a", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     fwrite($chatlog,$message . PHP_EOL);
   }
-  
+
 }
 
 if(isset($_POST['msg-send'])){
