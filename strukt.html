@@ -12,7 +12,7 @@
 	-09-5x4 Tabelle für die Berater
 	-10-3x6 Tabelle für die Ressource und Punkte der Spieler / nur sichtbar im Localmodus -> Ansonsten nur eine Tabelle fuer den Spieler selbst
 	-11-1x8 Tabelle für die Phasen
-	-12-Submit button zum Generieren von 3 Zufallszahlen 
+	-12-Submit button zum Generieren von 3 Zufallszahlen
 	-13-5x4 Tabelle fuer die Gebaeude
 	-14-Buttons mit Link um auf die Gebäudeliste zu kommen / Redundant -> Wird nicht mehr verwendet
 	-15-Zurücksetzen Button / Wird nicht mehr verwendet
@@ -25,7 +25,7 @@
 	-22-Inputfeld Email
 	-23-Label Email
 	-24-Button save
-	-25-Button mit Link zu den Spielregeln
+	-25-Button mit Link zu den Spielregeln /Wird nicht mehr verwendet
 	-26-Button Quit / Redundant -> Wird nicht mehr verwendet
 	-27-Text fuer das aktuelle Jahr
 	-28-Radiobuttongroup für die Spielmodi
@@ -57,15 +57,17 @@
 	-52-Link zu den Spielregeln
 	-53-Button um neues Spiel zu starten /Link zum Loginfeld
 	-54-Text fuer die zufaellig generierten Zahlenfolgen von 1 bis 6
-	-55-Text "You win/lose" 
+	-55-Text "You win/lose"
 	-56-Text Impressum
-	
+	-57-5x4 Infotabelle fuer Berater
+	-58-5x4 Infotabelle fuer Gebaeude
+
 =======Gruppen=======
 
 	-I.Gamecover
 		-53-Button um neues Spiel zu starten /Link zum Loginfeld
 		-19-Lade Button
-		
+
 	-II.Log-In Maske
 		-02-Inputfeld Username
 		-03-Inputfeld Passwort
@@ -84,58 +86,64 @@
 		-27-Text fuer das aktuelle Jahr
 		-11-1x8 Tabelle für die Phasen
 		-10-3x6 Tabelle für die Ressource und Punkte der Spieler / if(Spielmodus != Local) -> nur eine Tabelle
-		
+
 	-V.Registrieren:
 		-20-Label Passwort(repeat)
 		-39-Zweites Inputfeld Passwort fuer Registrierbildschirm
 		-22-Inputfeld email
 		-23-Label Email
-		
+
 	-VI.In-game Menu
 		-08-Button zurück zum Startbildschirm
 		-24-Button save
-		-25-Button mit Link zu den Spielregeln
-		
+		-49-Link zum Ausloggen
+		-52-Link zu den Spielregeln
+
 	-VII.Spielmodi
 		-28-Radiobuttongroup für die Spielmodi
 		-44-Submit button fuer die Spielmodi
 		-31-Detailsliste für die Spielmodi
-		
+
 	-VIII.Chatfenster
 		-31-Textfeld für das Chatfenster
 		-32-Textfeld für das Eingeben der Chatnachrichten
 		-43-Submit button fuer das Chatfenster
 
-	-IX.NavMenu	
-		-49-Link zum Ausloggen
+	-IX.Footer
 		-50-Link zum Impressum
 		-51-Link zur Originalwebsite
-		-52-Link zu den Spielregeln
-		
-	-X.Spielcover	
+
+
+	-X.Spielcover
 		-01-Image mit Cover des Spiels
 		-29-Textfeld Ueberschrift Startseite
-		
-	-XI.Produktionsphase	
+
+	-XI.Produktionsphase
 		-09-5x4 Tabelle für die Berater
 		-13-5x4 Tabelle fuer die Gebaeude
 		-13-Button mit Link um auf die Gebäudeliste zu kommen
 		-45-Link zur Infoseite fuer die Berater
 		-46-Link zur Infoseite fuer die Gebaeude
-		
+
 	-XII.Zufallszahlen
 		-54-Text fuer die zufaellig generierten Zahlenfolgen von 1 bis 6
-		-12-Submit button zum Generieren von 3 Zufallszahlen 
-	
+		-12-Submit button zum Generieren von 3 Zufallszahlen
+
 	-XIII.Kampf
 		-16-Text für die Kampfkraft des Gegners
 		-17-Text für den Gegner
-		-55-Text "You win/lose" 
-		
+		-55-Text "You win/lose"
+
 	-XIV.ImpressumContent
 		-56-Text Impressum
-		-57-Link zur Originalwebsite
-		
+		-51-Link zur Originalwebsite
+
+	-XV.Gebaeudeinfo
+		-57-5x4 Infotabelle fuer Gebaeude
+
+	-XVI.Beraterinfo
+		-58-5x4 Infotabelle fuer Gebaeude
+
 =======Views=======
 
 	==view_gameboard==
@@ -144,8 +152,8 @@
 			VIII.Chatfenster
 			IX.NavMenu
 			XI.Produktionsphase
-			XIII.Kampf
-			
+
+
 	==view_startbildschirm==
 			I.Gamecover
 			IX.NavMenu
@@ -167,13 +175,27 @@
 	==view_spielmodi==
 			VII.Spielmodi
 			IX.NavMenu
-	
+
 	==view_impressum==
 			IX.NavMenu
 			XIV.ImpressumContent
-			
-			
-			
+
+	==view_gebaeudeliste==
+			IX.NavMenu
+			IV.In-game Menu
+			XV.Gebaeudeinfo
+
+	==view_beraterliste==
+			IX.NavMenu
+			IV.In-game Menu
+			XVI.Beraterinfo
+
+	==view_kampf==
+			IX.NavMenu
+			IV.In-game Menu
+			XIII.Kampf
+
+
 -->
 
 
@@ -308,7 +330,7 @@ Leider haben Sie hier meine Hinweise weitgehend nicht umgesetzt. So haben Sie ke
 Bitte überarbeiten Sie jetzt zuerste die Beschreibung, passen Sie dann die strukturellen Elemente, dann die Gruppendefinitionen und dann die Ansichten. Achten Sie anschließend darauf, was ich genau bezüglich der Programmierung von Gruppen und Ansichten geschrieben habe und kommen Sie bei Fragen und Unklarheiten bitte vorbei und sprechen Sie mich an, denn der Nachbearbeitungsbedarf ist bereits jetzt recht hoch.
 -->
 
-<!-- 
+<!--
 =====================================
 ===Hinweis zum Feedback Turing1887===
 =====================================
