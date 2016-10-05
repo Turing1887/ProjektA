@@ -8,6 +8,7 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
+      <?php include("../Gruppen_de/ingame_menu.php"); ?>
       <section>
         <table border="1">
           <tr>
@@ -174,12 +175,13 @@
              Kosten: 2 Gold, 2 Holz, 2 Stein<br>
              Siegpunkte: 4<br>
              Verteidigung: 0<br>
-             Nutzen: Am Ende jeder Produktionphase einen Siegpunkt.<br> 
+             Nutzen: Am Ende jeder Produktionphase einen Siegpunkt.<br>
             </td>
 
           </tr>
 
         </table>
       </section>
+      <?php include("../Gruppen_de/footer.php"); ?>
     </body>
 </html>

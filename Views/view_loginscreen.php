@@ -17,5 +17,6 @@
           <details>Type in 'admin' as username and 'password' as password for now</details>
         </form>
         <a href="view_register.php">No Account? Sign up here</a>
+        <?php include("../Gruppen_de/footer.php"); ?>
     </body>
 </html>

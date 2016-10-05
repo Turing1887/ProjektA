@@ -14,6 +14,7 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
      </head>
      <body>
+       <?php include("../Gruppen_de/ingame_menu.php"); ?>
        <section>
          <p>
            <strong>Fantasy Flight Games</strong><br>
@@ -26,5 +27,6 @@
         <p>© 2016 Fantasy Flight Publishing, Inc. Fantasy Flight Games and the FFG logo are ® of Fantasy Flight Publishing, Inc. All rights reserved.</p>
         <a href="https://www.fantasyflightgames.com/en/index/">https://www.fantasyflightgames.com</a>
        </section>
+       <?php include("../Gruppen_de/footer.php"); ?>
      </body>
  </html>

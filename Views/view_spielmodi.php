@@ -12,6 +12,7 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
      </head>
      <body>
+       <?php include("../Gruppen_de/ingame_menu.php"); ?>
          <form action="../Formulare/form_eval_gametype.php" method="post">
             <fieldset>
               <legend>Please choose a game mode</legend>
@@ -30,5 +31,6 @@
               </ul>
           </details>
         </form>
+        <?php include("../Gruppen_de/footer.php"); ?>
      </body>
  </html>

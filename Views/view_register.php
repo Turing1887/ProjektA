@@ -7,6 +7,7 @@
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
   </head>
   <body>
+    
     <form action="../Formulare/form_eval_register.php" method="post">
       <fieldset>
         <legend>Register</legend>
@@ -17,5 +18,6 @@
         <input type="submit" value="Register">
       </fieldset>
     </form>
+    <?php include("../Gruppen_de/footer.php"); ?>
   </body>
 </html>
