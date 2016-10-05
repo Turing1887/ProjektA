@@ -8,7 +8,7 @@
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
-
+      <?php include("../Gruppen_de/ingame_menu.php"); ?>
         <form action="../Formulare/form_eval_playercount.php" method="post">
         <fieldset>
           <legend>Please verify the number of players</legend>
@@ -16,5 +16,6 @@
             <input type="submit" value=Submit><!--Werte verarbeiten-->
        </fieldset>
        </form>
+       <?php include("../Gruppen_de/footer.php"); ?>
     </body>
 </html>
