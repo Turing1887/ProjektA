@@ -18,6 +18,7 @@
               <input type="radio" name="gamemode" value="local">Local<br>
               <input type="radio" name="gamemode" value="singleplayer">Singleplayer<br>
               <input type="radio" name="gamemode" value="lan">LAN<br>
+              <input type="radio" name="gamemode" value="online">Online<br>
               <input type="submit" value="submit"><br>
             </fieldset>
           <details>
@@ -25,6 +26,7 @@
                   <li>Local: Play on one PC</li>
                   <li>Singleplayer: Play an Arcade game alone</li>
                   <li>LAN: Play on several PCs in your network</li>
+                  <li>Online: Search for games to join or host your own</li>
               </ul>
           </details>
         </form>
