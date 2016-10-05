@@ -11,6 +11,9 @@ switch($gamemode){
     case "lan":
         header("Location: ../Views/php_code.php");
         break;
+    case "online":
+        header("Location: ../Views/view_lobby.php");
+        break;
 }
 
 ?>
