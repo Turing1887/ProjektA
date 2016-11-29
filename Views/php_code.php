@@ -29,7 +29,6 @@ function validateMessage(){
 
 if(isset($_POST['msg-send'])){
   validateMessage();
-
 }
 
 ?>
