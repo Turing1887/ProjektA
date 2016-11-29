@@ -94,76 +94,6 @@ Phase 5 ist der Kampf. Die Gegner werden von Welle zu Welle stärker und alle 5 
 ======================
 
 
-Loginbildschirm:
-* Der Spieler muss sich einloggen
-* Hat der Spieler keinen Account so klickt der Spieler auf den Link "Registrieren"
-
-Registrierbildschirm:
-* Spieler gibt einen Username ein
-* Nun gibt der Spieler ein Passwort ein
-* Spieler wiederholt das Passwort
-* Spieler klickt auf den Submit button mit dem value "Register"
-* Die Anmeldeinformationen werden erstmal provisorisch in einer Textdatei gespeichert
-* man kann sich nun anmelden
-
-Startbildschirm:
-* Spieler startet das Spiel durch Klick auf:
-	* Den Button "New game"
-	* Den Button "Load game"
-
-Spielmodusbildschirm:
-* Der Spieler sucht sich einen Spielmodus aus
-* Es gibt drei verschiedene Radiobuttons zur Auswahl
-  - Local: Mehrspielerspiel an einem Rechner
-  - LAN: Spiel an mehreren Rechnern in einem Netz
-  - Singleplayer: Einzelspieler an einem Rechner
-	-	Online: Kann Spiel hosten bzw beitreten
-* Der Spieler kann auf den Detailsbutton klicken um Infos zu kriegen(Der Button ist browserabhängig. Ansonsten sind Infos so sichtbar, da <Details> nur in Opera/Chrome/Safari supported ist)
-* Spieler wählt Modus und klickt auf Submit
-
-Spieleranzahlbildschirm(nur für "local"):
-* Spieler wählt eine Spieleranzahl zwischen 1 und 5
-* Spieler klickt auf Submit button
-
-Lobbybildschirm(nur fuer "online"):
-* Spieler klickt entweder auf "Host" oder "Join"
-	-Host: Spieler kann ein Spiel erstellen dem andere Spieler beitreten
-	-Join: Spieler kann nach Spielen die andere Spieler erstellt haben suchen
-
-Spielbrettbildschirm:
-* Das Spiel beginnt in Phase 1:
-  - Alle Spieler lassen sich drei zufällige Zahlen generieren
-  - Diese Zahlen werden zusammenaddiert und der Spieler mit der höchsten Zahl darf als Erstes
-
-* Phase 2:
-  - Der Reihe nach klicken die Spieler nun auf die Beraterfelder
-  - Mit Klick auf den Infolink kriegt man eine Übersicht der Berater
-  - Spieler können nun ein Gebäude bauen
-  - Dazu klickt man in der Gebäudetabelle auf das entsprechende Gebäude
-  - Mit klick auf den Infolink öffnet sich eine Gebäudeübersicht
-
-
-* Phase 3:
-  - Spieler mit den meisten Gebäuden kriegt automatisch einen Bonuspunkt hinzu
-  - Herrscht Gleichstand passiert nichts
-
-* Phase 4
-  - Phase 2 wiederholt sich
-
-* Phase 5
-  - Der Spieler mit den wenigsten Gebäuden(bei Gleichstand mit den wenigsten Ressourcen) kriegt automatisch einen Gesandten in Form eines Buttons neben seinem Username
-  - Kann nur in einer Produktionsphase verwendet werden
-
-* Phase 6
-  - Phase 2 wird wiederholt
-
-* Phase 7
-  - Spieler werden gefragt ob sie Ressourcen gegen Militärpunkte eintauschen möchten
-  - klicken die Spieler auf "Yes" werden ihnen automatisch Ressourcen abgezogen und Punkte hinzugefügt
-
-* Phase 8
-  - Spieler kommen auf Seite und es spawnt automatisch ein Gegner
-  - Klickt man auf den Kampfbutton wird der Kampfgestartet und der Ausgang des Kampfes automatisch evaluiert
 
 
 ===================================
@@ -281,3 +211,45 @@ Unter der folgenden Überschrift haben Sie fast ausschließlich strukturelle Bes
 == Umsetzung/ Ablauf/Interaktion/Elemente: ==
 
 Hier kann ich nur wieder auf meine ausführlichen Erläuterungen dazu verweisen, was alles mit Interaktion in diesem Projekt gemeint ist. Wenn bei den Erläuterungen etwas unklar ist, können Sie natürlich gerne wie auch bisher bei mir im Büro vorbeischauen und wir reden dann drüber. Das ist überhaupt kein Problem.
+
+===================================
+=== Feedback Alpers, 2016-11-11 ===
+===================================
+
+Vorweg eine wichtige Erinnerung: Wie im realen Leben ändern sich die Anforderungen an die Projekte regelmäßig. Und wie im realen Leben gibt es hier (im Gegensatz zu Projekten in den Ingenieur- oder Naturwissenschaften) eben kein klar abgegrenztes Kriterium, dass zähl-, mess- oder berechenbar wäre. Eine der zentralen Herausforderungen dieses Leistungsnachweises besteht also darin, die Änderungen der Anforderungen zu verfolgen und umzusetzen, ohne dass Sie dabei so etwas wie eine Formelsammlung nutzen könnten, das Ihnen zeigt, wie Sie die Aufgabe erfüllen sollen. Dann und nur dann, wenn Sie es schaffen, damit zurecht zu kommen und sich nicht von der Sorge vor einem Fehlversuch zu hektischem Verhalten verleiten lassen, haben Sie die wichtigste Bedingung beim Arbeiten in Projekten bestanden. Und das hat weniger mit Ihrem konkreten Studium zu tun, als vielmehr mit jeder Art von Projektarbeit, die im Medienumfeld oder der Informatik möglich ist. Denn was Sie jetzt erleben ist leider nur ein kleiner Vorgeschmack dessen, was Sie später jeden Tag erleben werden, wenn Sie in diesem Umfeld tätig werden. Wenn Ihnen diese Aussagen nicht genügen, kann ich Ihnen nur empfehlen mit jemandem zu sprechen, der bereits in der Gamesbranche gearbeitet hat. (Einer Ihrer Kommilitonen war früher bei einem Hamburger Games Developer.) Alles, was Sie momentan als unfair, zu hart usw. bewerten ist harmlos, absolut harmlos im Verhältnis zu dem, was im Berufsfeld Informatik im Medienumfeld passiert.
+
+Damit zum aktuellen Feedback:
+
+=== I.) Formales
+
+== I.1.) Reihenfolge der Einträge ist schlecht.
+
+Damit dieses Dokument Sinn macht sollen Sie den jeweils aktuellsten Stand an den Anfang stellen. Dort steht aber aktuell noch der Stand vom 3. Juni.
+
+== I.2.) Beschreibungen ans Ende
+
+Dieses Dokument ist die Grundlage der weiteren Softwareentwicklung. Deshalb spielen hier viele Aspekte keine Rolle, die für eine Anleitung wichtig wären. Leider beschreiben Sie dennoch zuerst ausführlich, anstatt in knappen Stichpunkten die Inhalte aufzuführen.
+
+=== II.) Inhalte
+
+== II.1.) Ansichten sind das letzte Ergebnis des Konzeptionsprozesses für Softwareentwickler, Sie stellen die (wie Designer) an den Anfang.
+
+Obwohl ich spätestens seit Mitte des letzten Semesters immer wieder betone, dass Sie alle sich auf Inhalte konzentrieren sollen und mit der (stichpunktartigen) Beschreibung der Inhalte beginnen sollen, fangen Sie immer noch mit der Aufstellung von "Seiten" wie "Loginbildschirm" an. Seiten, Ansichten usw. usf. sind Designfragen!
+
+=== II.2.) Erst die Inhalte, dann die Abläufe
+
+Auch diesen Punkt habe ich in einer Rundmail vor rund einem Monat nochmal ganz deutlich angesprochen: Führen Sie zunächst auf, was die Inhalte des Spiels sind, bzw. woraus es besteht, bzw. welche Teile vorhanden sein sollen und erst danach die Abläufe, Funktionen usw. Denn die Abläufe und Funktionen sind für die Entwicklung der Struktur weitgehend irrelevant. Sie steuern, wie die Inhalte sich ändern. Wenn Sie also Abläufe vor Inhalten beschreiben, dann legen Sie zuerst fest, wie Dinge sich ändern, bevor Sie festlegen, welche Dinge das überhaupt sind. Und so lange wir nicht im Bereich der funktionalen Programmierung sind, ist es unmöglich das sinnvoll in einem Programm umzusetzen.
+
+Genau das habe ich auch beim vorletzten Feedback als == IV == schon geschrieben.
+
+=== III.) Zusammenfassung
+
+Damit haben Sie zwar Ihre bisherige Beschreibung verknappt, was ein Schritt in die richtige Richtung ist, aber Sie haben den zweiten genauso wichtigen Punkt nicht umgesetzt: Sie haben die Abläufe nicht von den Inhalten getrennt. Sie haben stattdessen Ansichten und Abläufe definiert. Und damit ist der aktuelle Stand der Beschreibung leider nicht bewertbar, weil Sie den Kern dieses Aufgabenteils verfehlt haben.
+
+Damit ist leider auch klar, dass die strukturelle Planung nicht bewertbar ist, weil Sie ja bereits in der Beschreibung genau diese Planung übersprungen haben.
+
+Dennoch habe ich schon einen Blick auf die Umsetzung in HTML geworfen. Auch dort haben Sie eine essentielle Vorgabe missachtet, die aber schon seit dem vorletzten Semester gilt: Sie haben HTML 4.01 programmiert.
+
+Und Sie haben die Namenskonventionen sowie die zugehörigen Verzeichnisse bei der Umsetzung der Ansichten falsch gewählt. Die Umsetzung von view_name soll in einer Datei mit dem Namen der Ansicht und nicht mit view_ vor Name der Ansicht erfolgen. Auch von einem Verzeichnis view war nirgends die Rede.
+
+Bei zumindest einem Auswertungsformular haben Sie zusätzlich HTML-Code eingefügt, der in dieser Form keinen Sinn macht, sondern vielmehr zu Problemen führen wird.
