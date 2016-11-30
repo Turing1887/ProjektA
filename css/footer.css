@@ -1,0 +1,24 @@
+footer{
+    margin: auto;
+    width: 225px;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    padding: 10px;
+}
+footer ul li{
+    display: inline;
+    
+}
+footer ul li:first-child{
+    border-right: 1px solid white;
+    padding-right: 5px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
