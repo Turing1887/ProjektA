@@ -1,3 +1,11 @@
+<?php 
+include_once "../db/write_to_db.php";
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,19 +13,20 @@
     <title>Kingsburg</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
   </head>
   <body>
-    
+    <section class="login-form">
     <form action="../Formulare/form_eval_register.php" method="post">
-      <fieldset>
-        <legend>Register</legend>
+      
+        <h3>Register</h3>
         <?php include '../Gruppen_de/loginmask.php'; ?>
-        <label for="password-repeat">Repeat Password: </label><br>
-        <input type="password" name="password-repeat" required><br>
-        <hr>
-        <input type="submit" value="Register">
-      </fieldset>
+        <input type="password" name="password-repeat" placeholder="Repeat Password" class="textfield" required>
+     
+        <button type="submit" class="login-submit">Register</button>
     </form>
+    </section>
     <?php include("../Gruppen_de/footer.php"); ?>
   </body>
 </html>

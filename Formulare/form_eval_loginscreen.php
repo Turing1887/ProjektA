@@ -1,76 +1,46 @@
 <?php
 
-	//$found = false;
-	$file = fopen('user-file.txt','r');
-	$username = $_POST['username'];
-	$password = $_POST['password'];
-	$file_array = file('user-file.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-	$array_length = count($file_array);
-	$success = false;
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "kingsburgdb";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
 
-	foreach ($file_array as $user) {
-		$user_details = explode('|', $user);
-		if ($user_details[0] == $username && $user_details[1] == $password) {
-        $success = true;
-        break;
+// set parameters and execute
+$usernamePlayer = $_POST["username"];
+$usernamePlayer = mysql_real_escape_string($usernamePlayer);
+$passwordPlayer = $_POST["password"];
+$passwordPlayer = mysql_real_escape_string($passwordPlayer);
+
+
+// $query = "SELECT username FROM accountdata";
+
+$query = "SELECT username,password FROM accountdata WHERE username = '$usernamePlayer' AND password = '$passwordPlayer'";
+
+    if ($result = mysqli_query($conn, $query)) {
+        /* fetch associative array */
+        while ($row = mysqli_fetch_assoc($result)) {
+			if($row['username'] == $usernamePlayer and $row['password'] == $passwordPlayer){
+				header("Location: ../Views/view_spielmodi.php");
+			}
+        }
+		echo "Password or username wrong";
+
+        /* free result set */
+        mysqli_free_result($result);
     }
-	}
-	if($success == true){
-		header("Location: ../Views/view_startbildschirm.php");
-	}
-	else{
-		echo "err";
-	}
 
-/*
-	while(!$found){
-		$line = fgets($file);
-		if($line == $username){
-			$nextline = fgets($file);
-			if($nextline == $password){
-				fclose($file);
-				$found = true;
-				header('Location: ../HTML/PlayerCountScreen.html');
-			}
-			else if(feof($file)){
-				fclose($file);
-				echo "<p>Password is wrong</p>";
-				$found = true;
-			}
-		}
-		else if(feof($file)){
-			fclose($file);
-			echo "<p>Username is wrong</p>";
-			$found = true;
-		}
-	}
+$conn->close();
 
-
-	if($_POST["username"] =="admin"){
-		if($_POST["password"]=="password"){
-			header("Location: ../HTML/PlayerCountScreen.html");
-		}
-		else{
-			echo 'Username or Password invalid';
-
-		}
-
-	}*/
 
 
 ?>
-
-
-
-<!DOCTYPE html>
-
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Err</title>
-    </head>
-    <body>
-
-    </body>
-</html>

@@ -18,8 +18,9 @@
             <?php include("../Gruppen_de/loginmask.php"); ?>
             <button type="submit" class="login-submit" value="Login">Login</button>
         </form>
-     </section>   
         <a href="view_register.php">No Account? Sign up here</a>
+     </section>   
+        
         <?php include("../Gruppen_de/footer.php"); ?>
     </body>
 </html>
