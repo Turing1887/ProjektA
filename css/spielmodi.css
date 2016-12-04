@@ -1,0 +1,14 @@
+body{
+    background-color:#428bca;
+}
+form ul{
+    list-style: none;
+}
+form ul li{
+    color: white;
+    cursor: default;
+}
+h3{
+    font-size: 20px;
+    color: white;
+}

@@ -1,3 +1,9 @@
+<?php
+include ('php_code.php');
+
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -8,6 +14,7 @@
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <meta name="theme-color" content="#ffffff">
+        
     </head>
     <body>
         <?php include("../Gruppen_de/ingame_menu.php"); ?>
@@ -59,11 +66,11 @@
             </tr>
             </table>
 
-            <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+            <form method="get" action="<?php echo $_SERVER["PHP_SELF"];?>">
               <input type="submit" name="dice" id="dice1" value="Dice"><br>
             </form>
-            <section id="number-box">
-              <?php if(isset($_POST['dice'])){ roll_the_dice(); }?>
+            <section class="dice-numbers" id="number-box">
+              <?php if(isset($_GET['dice'])){ roll_the_dice(); }?>
             </section>
 
             <table border="1">

@@ -1,0 +1,16 @@
+nav button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 20px 20px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+-webkit-box-shadow: -1px 10px 37px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 37px -6px rgba(0,0,0,0.75);
+box-shadow: -1px 10px 10px -6px rgba(0,0,0,0.75);
+}
+nav button:hover{
+    background-color: #2069a8;
+    transition: background-color 0.3s;
+}

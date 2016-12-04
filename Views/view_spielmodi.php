@@ -10,18 +10,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../css/spielmodi.css">
      </head>
      <body>
        <?php include("../Gruppen_de/ingame_menu.php"); ?>
          <form action="../Formulare/form_eval_gametype.php" method="post">
-            <fieldset>
-              <legend>Please choose a game mode</legend>
-              <input type="radio" name="gamemode" value="local">Local<br>
-              <input type="radio" name="gamemode" value="singleplayer">Singleplayer<br>
-              <input type="radio" name="gamemode" value="lan">LAN<br>
-              <input type="radio" name="gamemode" value="online">Online<br>
-              <input type="submit" value="submit"><br>
-            </fieldset>
+            <ul>
+              <h3>Please choose a game mode</h3>
+              <li><input type="radio" name="gamemode" value="local">Local</li>
+              <li><input type="radio" name="gamemode" value="singleplayer">Singleplayer</li>
+              <li><input type="radio" name="gamemode" value="lan">LAN</li>
+              <li><input type="radio" name="gamemode" value="online">Online</li>
+              <li><input type="submit" value="submit"></li>
+            </ul>
           <details>
               <ul>
                   <li>Local: Play on one PC</li>

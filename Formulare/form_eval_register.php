@@ -26,29 +26,34 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "kingsburgdb";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// prepare and bind
-$stmt = $conn->prepare("INSERT INTO accountdata (username, password) VALUES (?, ?)");
-$stmt->bind_param("ss", $usernamePlayer, $passwordPlayer);
-
 // set parameters and execute
 $usernamePlayer = $_POST["username"];
 $passwordPlayer = $_POST["password"];
+$passwordRepeat = $_POST["password-repeat"];
+if($passwordPlayer == $passwordRepeat){
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-$stmt->execute();
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
 
-// echo "New records created successfully";
+    // prepare and bind
+    $stmt = $conn->prepare("INSERT INTO accountdata (username, password) VALUES (?, ?)");
+    $stmt->bind_param("ss", $usernamePlayer, $passwordPlayer);
 
-$stmt->close();
-$conn->close();
-header('Location: ../Views/view_loginscreen.php');
 
+
+    $stmt->execute();
+
+    // echo "New records created successfully";
+
+    $stmt->close();
+    $conn->close();
+    header('Location: ../Views/view_loginscreen.php');
+}
+else{
+    echo "Passwords don't match";
+}
 ?>
