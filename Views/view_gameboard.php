@@ -13,15 +13,15 @@ include ('php_code.php');
 
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../css/gameboard.css">
         <meta name="theme-color" content="#ffffff">
         
     </head>
     <body>
         <?php include("../Gruppen_de/ingame_menu.php"); ?>
-        <hr>
 
 		  <section>
-            <table border="1">
+            <table>
             <tr>
                 <td id="phase1">
                     Phase 1
@@ -50,7 +50,7 @@ include ('php_code.php');
             </tr>
             </table>
         </section>
-		    <hr>
+		    
 
         <section>
             <table border="1">
@@ -87,7 +87,7 @@ include ('php_code.php');
             </table>
             <button id="dice2">Dice 2</button>
             </section>
-            <hr>
+            
 
             <section>
             <h4>"username" Inventory</h4>
@@ -123,7 +123,7 @@ include ('php_code.php');
              </table><br>
 
             </section>
-            <hr>
+            
 
             <section>
             <h1>The King's Advisors</h1>
@@ -196,7 +196,7 @@ include ('php_code.php');
                  </tr>
             </table> <br>
             </section>
-			<hr>
+			
 
 
 
@@ -234,7 +234,7 @@ include ('php_code.php');
 		</table>
     <a href="view_gebaeudeliste.php" target="_blank">Liste der Gebäude</a>
 		</section>
-    <hr>
+    
 
     <section>
       <h1>Kampf</h1>
@@ -242,7 +242,7 @@ include ('php_code.php');
       <button>Start</button>
 
     </section>
-    <hr>
+    
 
     <section>
         <h1>Chat</h1>
@@ -252,7 +252,7 @@ include ('php_code.php');
             <input type="submit" name="msg-send" value="Send">
         </form>
     </section>
-    <hr>
+    
     <?php include("../Gruppen_de/footer.php"); ?>
 
     </body>
