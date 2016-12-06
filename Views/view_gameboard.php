@@ -89,39 +89,10 @@ include ('php_code.php');
             </section>
             
 
-            <section>
-            <h4>"username" Inventory</h4>
-            <table style="width:30%;" border="1">
-                <tr>
-                    <td>
-                    Gold
-                    </td>
-                     <td>
-                    Wood
-                    </td>
-                     <td>
-                    Stone
-                    </td>
-                     <td>
-                    Military
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                     0
-                    </td>
-                     <td>
-                     0
-                    </td>
-                     <td>
-                     0
-                    </td>
-                     <td>
-                     0
-                    </td>
-                </tr>
-             </table><br>
-
+            <section class="user-section">
+            <h4>"username"</h4>
+            <p>Gold</p>
+            
             </section>
             
 
@@ -244,9 +215,9 @@ include ('php_code.php');
     </section>
     
 
-    <section>
+    <section class="chat-window">
         <h1>Chat</h1>
-        <textarea style="resize:none;" id="chat-window" readonly><?php foreach($_SESSION['messages'] as $message) echo $message . PHP_EOL; ?></textarea>
+        <textarea id="chat-window" readonly><?php foreach($_SESSION['messages'] as $message) echo $message . PHP_EOL; ?></textarea>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
             <input type="text" name="msg-window" placeholder="Type a message">
             <input type="submit" name="msg-send" value="Send">
