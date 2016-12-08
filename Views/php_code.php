@@ -17,16 +17,14 @@ function roll_the_dice(){
 
 }
 
-function validateMessage(){
-  if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $message = $_REQUEST['msg-window'];
-    $chatlog = fopen("chat-log.txt", "a", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    fwrite($chatlog,$message . PHP_EOL);
-  }
-}
+// function validateMessage(){
+//   if($_SERVER["REQUEST_METHOD"] == "POST"){
+   
+//   }
+// }
 
-if(isset($_POST['msg-send'])){
-  validateMessage();
-}
+// if(isset($_POST['msg-send'])){
+//   validateMessage();
+// }
 
 ?>

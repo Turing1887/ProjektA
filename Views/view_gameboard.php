@@ -10,7 +10,8 @@ include ('php_code.php');
     <head>
         <meta charset="utf-8" />
         <title>Kingsburg</title>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="chat.js"></script>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="../css/gameboard.css">
