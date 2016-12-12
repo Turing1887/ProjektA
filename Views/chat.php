@@ -40,7 +40,7 @@
              break;
     	 
     	 case('send'):
-          $message = $_REQUEST['msg-window'];
+          $message = $_POST['message'];
           $chatlog = fopen("chat-log.txt", "a", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
           fwrite($chatlog,$message . PHP_EOL);
 		//   $nickname = htmlentities(strip_tags($_POST['nickname']));
