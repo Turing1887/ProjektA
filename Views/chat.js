@@ -19,7 +19,7 @@ function getStateOfChat(){
 			   			'function': 'getState',
 						'file': file
 						},
-			
+			  datatype: "json",
 			   success: function(data){
 				   state = data.state;
 				   instanse = false;
@@ -31,6 +31,7 @@ function getStateOfChat(){
 //Updates the chat
 function updateChat(){
 	 if(!instanse){
+		//  alert("Update");
 		 instanse = true;
 	     $.ajax({
 			   type: "POST",
@@ -40,11 +41,11 @@ function updateChat(){
 						'state': state,
 						'file': file
 						},
+			 datatype: "json",			
 			   success: function(data){
 				   if(data.text){
-						for (var i = 0; i < data.text.length; i++) {
-                            $('#chat-window').append($("<p>"+ data.text[i] +"</p>"));
-                        }								  
+					   alert("works too");
+                       $('#chat-window').val(data.text); 							  
 				   }
 				   document.getElementById('chat-window').scrollTop = document.getElementById('chat-window').scrollHeight;
 				   instanse = false;
@@ -60,6 +61,7 @@ function updateChat(){
 //send the message
 function sendChat(message, nickname)
 {       
+	alert("send");
     updateChat();
      $.ajax({
 		   type: "POST",
@@ -70,6 +72,7 @@ function sendChat(message, nickname)
 					'nickname': nickname,
 					'file': file
 				 },
+			datatype: "json",
 		   success: function(data){
 			   updateChat();
 		   },
