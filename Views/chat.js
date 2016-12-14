@@ -40,14 +40,16 @@ function updateChat(){
 			   			'function': 'update',
 						'state': state,
 						'file': file
+						// 'text': text
 						},
-			 datatype: "json",			
+			  datatype: "text",		
 			   success: function(data){
+				   alert("Poop");
 				   if(data.text){
 					   alert("works too");
-                       $('#chat-window').val(data.text); 							  
+                       $('#chat-window').append(data.text); 							  
 				   }
-				   document.getElementById('chat-window').scrollTop = document.getElementById('chat-window').scrollHeight;
+				//    document.getElementById('chat-window').scrollTop = document.getElementById('chat-window').scrollHeight;
 				   instanse = false;
 				   state = data.state;
 			   },
