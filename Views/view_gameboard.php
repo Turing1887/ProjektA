@@ -1,7 +1,6 @@
 <?php
 include ('php_code.php');
-
-
+// include ('chat.php');
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +10,7 @@ include ('php_code.php');
         <meta charset="utf-8" />
         <title>Kingsburg</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="Chat.js"></script>
+        <script src="chat.js"></script>
         <script src="chatListener.js"></script>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
@@ -219,8 +218,8 @@ include ('php_code.php');
 
     <section class="chat-window">
         <h1>Chat</h1>
-        <textarea id="chat-window" readonly><?php //foreach($_SESSION['messages'] as $message) echo $message . PHP_EOL; ?></textarea>
-        <form method="post" id="chat-form" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+        <textarea id="chat-window" readonly></textarea>
+        <form method="POST" id="chat-form">
             <input type="text" id="message" name="msg-window" placeholder="Type a message">
             <input type="submit" name="msg-send" value="Send">
         </form>

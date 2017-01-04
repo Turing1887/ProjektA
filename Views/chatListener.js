@@ -1,5 +1,7 @@
+// import 'chat.js';
 var message;
 var nickname;
+
 $(document).ready(function(){
     var chat = new Chat();
     $('#chat-form').on('submit',function(){

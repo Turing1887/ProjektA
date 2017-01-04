@@ -1,11 +1,9 @@
-var instanse = false;
-var state;
-var file;
+
 
 function Chat () {
-    this.update = updateChat;
-    this.send = sendChat;
-	this.getState = getStateOfChat;
+  this.update = updateChat;
+  this.send = sendChat;
+  this.getState = getStateOfChat;
 }
 
 //gets the state of the chat
@@ -16,10 +14,10 @@ function getStateOfChat(){
 			   type: "POST",
 			   url: "chat.php",
 			   data: {  
-			   			'function': 'getState',
+			   		'function': 'getState',
 						'file': file
 						},
-			  datatype: "json",
+			  dataType: "json",
 			   success: function(data){
 				   state = data.state;
 				   instanse = false;
@@ -37,17 +35,17 @@ function updateChat(){
 			   type: "POST",
 			   url: "chat.php",
 			   data: {  
-			   			'function': 'update',
+			   		'function': 'update',
 						'state': state,
 						'file': file
 						// 'text': text
 						},
-			  datatype: "text",		
+			  dataType: "json",		
 			   success: function(data){
-				   alert("Poop");
+				// alert("Poop");
 				   if(data.text){
 					   alert("works too");
-                       $('#chat-window').append(data.text); 							  
+             $('#chat-window').append(data.text); 							  
 				   }
 				//    document.getElementById('chat-window').scrollTop = document.getElementById('chat-window').scrollHeight;
 				   instanse = false;
@@ -61,22 +59,23 @@ function updateChat(){
 }
 
 //send the message
-function sendChat(message, nickname)
+function sendChat(message,nickname)
 {       
-	alert("send");
-    updateChat();
+  alert("send");
+  //updateChat();
      $.ajax({
-		   type: "POST",
+		   type: "post",
 		   url: "chat.php",
 		   data: {  
-		   			'function': 'send',
-					'message': message,
-					'nickname': nickname,
-					'file': file
+		   		'function': "send",
+				'message': message,
+				'nickname': nickname,
+				'file': file
 				 },
-			datatype: "json",
+		   dataType: "text",
 		   success: function(data){
-			   updateChat();
-		   },
+				 alert("success");
+			   //updateChat();
+		   }
 		});
 }
