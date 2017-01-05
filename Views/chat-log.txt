@@ -1,3 +1,4 @@
-Player1:www
-Player1:asd
-Player1:&ouml;&ouml;
+Player1:ko
+Player1:tr
+Player1:lolo
+Player1:dada
