@@ -1,7 +1,12 @@
 <?php
+<<<<<<< HEAD
 // include ('php_code.php');
 // include ('chat.php');
 
+=======
+include ('php_code.php');
+// include ('chat.php');
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
 ?>
 
 <!DOCTYPE html>
@@ -219,8 +224,13 @@
 
     <section class="chat-window">
         <h1>Chat</h1>
+<<<<<<< HEAD
         <textarea id="chat-window" readonly><?php //foreach($_SESSION['messages'] as $message) echo $message . PHP_EOL; ?></textarea>
         <form id="chat-form" method="post">
+=======
+        <textarea id="chat-window" readonly></textarea>
+        <form method="POST" id="chat-form">
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
             <input type="text" id="message" name="msg-window" placeholder="Type a message">
             <input type="submit" name="msg-send" value="Send">
         </form>

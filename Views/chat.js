@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 var instanse;
 var state;
 var file;
+=======
+
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
 
 function Chat () {
-    this.update = updateChat;
-    this.send = sendChat;
-	this.getState = getStateOfChat;
+  this.update = updateChat;
+  this.send = sendChat;
+  this.getState = getStateOfChat;
 }
 
 //gets the state of the chat
@@ -17,10 +21,10 @@ function getStateOfChat(){
 			   url: "chat.php",
 			   async: false,
 			   data: {  
-			   			'function': 'getState',
+			   		'function': 'getState',
 						'file': file
 						},
-			  datatype: "json",
+			  dataType: "json",
 			   success: function(data){
 				   state = data.state;
 				   instanse = false;
@@ -39,17 +43,26 @@ function updateChat(){
 			   url: "chat.php",
 			   async: false,
 			   data: {  
-			   			'function': 'update',
+			   		'function': 'update',
 						'state': state,
 						'file': file
 						// 'text': text
 						},
+<<<<<<< HEAD
 			  datatype: "json",		
 			   success: function(data){
 				//    alert("Poop");
 				   if(data['message']){
 					   alert("works too");
                        $('#chat-window').append(data['message']); 							  
+=======
+			  dataType: "json",		
+			   success: function(data){
+				// alert("Poop");
+				   if(data.text){
+					   alert("works too");
+             $('#chat-window').append(data.text); 							  
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
 				   }
 				//    document.getElementById('chat-window').scrollTop = document.getElementById('chat-window').scrollHeight;
 				   instanse = false;
@@ -63,25 +76,43 @@ function updateChat(){
 }
 
 //send the message
-function sendChat(message, nickname)
+function sendChat(message,nickname)
 {       
+<<<<<<< HEAD
 	alert(message);
     // updateChat();
+=======
+  alert("send");
+  //updateChat();
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
      $.ajax({
-		   type: "POST",
+		   type: "post",
 		   url: "chat.php",
 		   async: false,
 		   data: {  
+<<<<<<< HEAD
 		   			function: 'send',
 					message: message,
 					nickname: nickname,
 					file: file
+=======
+		   		'function': "send",
+				'message': message,
+				'nickname': nickname,
+				'file': file
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
 				 },
-			datatype: "json",
+		   dataType: "text",
 		   success: function(data){
+<<<<<<< HEAD
 			   alert(data);
 			   $("#chat-window").val(data);
 			   updateChat();
 		   },
+=======
+				 alert("success");
+			   //updateChat();
+		   }
+>>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
 		});
 }
