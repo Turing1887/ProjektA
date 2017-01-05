@@ -42,7 +42,7 @@
 			$message = $return['message'];
 			$nickname = $return['nickname'];
 	  	$chatlog = fopen("chat-log.txt", "a", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-	  	fwrite($chatlog , $nickname . ":" . $message . PHP_EOL);
+	  	fwrite($chatlog ,"<strong>" . $nickname . "</strong>" . ":" . $message . PHP_EOL);
 
 	  	break;
 
