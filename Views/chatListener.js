@@ -1,15 +1,18 @@
-// import 'chat.js';
+
 var message;
 var nickname;
 
-$(document).ready(function(){
+$(document).ready(function () {
     var chat = new Chat();
-    $('#chat-form').on('submit',function(){
+    chat.getState();
+    $('#chat-form').on('submit', function () {
         message = $('#message').val();
         nickname = "Player1";
-        chat.send(message,nickname);
+        chat.send(message, nickname);
+        $("#message").val("");
+        return false;
     });
-    setInterval(function() { //use a function not a string
+    setInterval(function () {
         chat.update();
     }, 1000);
 });

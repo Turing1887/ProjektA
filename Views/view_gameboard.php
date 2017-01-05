@@ -1,13 +1,4 @@
-<?php
-<<<<<<< HEAD
-// include ('php_code.php');
-// include ('chat.php');
 
-=======
-include ('php_code.php');
-// include ('chat.php');
->>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
-?>
 
 <!DOCTYPE html>
 
@@ -22,9 +13,9 @@ include ('php_code.php');
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="../css/gameboard.css">
         <meta name="theme-color" content="#ffffff">
-        
+
     </head>
-    <body>
+    <body onload="setInterval('chat.update()', 1000)">
         <?php include("../Gruppen_de/ingame_menu.php"); ?>
 
 		  <section>
@@ -57,7 +48,7 @@ include ('php_code.php');
             </tr>
             </table>
         </section>
-		    
+
 
         <section>
             <table border="1">
@@ -94,14 +85,14 @@ include ('php_code.php');
             </table>
             <button id="dice2">Dice 2</button>
             </section>
-            
+
 
             <section class="user-section">
             <h4>"username"</h4>
             <p>Gold</p>
-            
+
             </section>
-            
+
 
             <section>
             <h1>The King's Advisors</h1>
@@ -174,7 +165,7 @@ include ('php_code.php');
                  </tr>
             </table> <br>
             </section>
-			
+
 
 
 
@@ -212,7 +203,7 @@ include ('php_code.php');
 		</table>
     <a href="view_gebaeudeliste.php" target="_blank">Liste der Gebäude</a>
 		</section>
-    
+
 
     <section>
       <h1>Kampf</h1>
@@ -220,22 +211,18 @@ include ('php_code.php');
       <button>Start</button>
 
     </section>
-    
+
 
     <section class="chat-window">
         <h1>Chat</h1>
-<<<<<<< HEAD
-        <textarea id="chat-window" readonly><?php //foreach($_SESSION['messages'] as $message) echo $message . PHP_EOL; ?></textarea>
-        <form id="chat-form" method="post">
-=======
-        <textarea id="chat-window" readonly></textarea>
-        <form method="POST" id="chat-form">
->>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
+
+        <div id="chat-window"></div>
+        <form method="POST" id="chat-form" novalidate>
             <input type="text" id="message" name="msg-window" placeholder="Type a message">
             <input type="submit" name="msg-send" value="Send">
         </form>
     </section>
-    
+
     <?php include("../Gruppen_de/footer.php"); ?>
 
     </body>

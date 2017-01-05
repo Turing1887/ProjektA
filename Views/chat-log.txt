@@ -1,8 +1,1 @@
-<<<<<<< HEAD
-Player1:ko
-Player1:tr
-Player1:lolo
-Player1:dada
-=======
 
->>>>>>> 398f9f6e464f6968241e4a6ad1834814f65cedc5
