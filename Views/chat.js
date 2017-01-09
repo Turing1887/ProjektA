@@ -1,6 +1,7 @@
 var instanse = false;
 // var file;
 var state;
+var username;
 
 
 function Chat() {
@@ -69,7 +70,8 @@ function sendChat(message, nickname) {
 		data: {
 			function: 'send',
 			message: message,
-			nickname: nickname
+			nickname: nickname,
+			username: username
 			// file: file
 		},
 		dataType: "json",
@@ -77,4 +79,8 @@ function sendChat(message, nickname) {
 			updateChat();
 		}
 	});
+}
+
+function setUsername(username){
+	this.username = username;
 }
